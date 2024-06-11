@@ -31,6 +31,7 @@ li {
 
 img {
     width: 315px;
+    padding-top: 10px;
 }
 
 .modal {
@@ -78,4 +79,58 @@ h2 {
 p {
     font-size: 26px;
     color: #000;
+}
+
+.marcadores label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.marcadores input {
+    width: 30px;
+    height: 30px;
+}
+
+.marcadores span {
+    position: absolute;
+    margin-top: 7px;
+    font-size: 22px;
+}
+
+.timer {
+    font-size: 22px;
+    color: #fff;
+    display: none;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: -53px;
+}
+
+.marcadores label.hidden {
+    display: none;
+}
+
+.serie-checkbox {
+    width: 20px;
+    height: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+}
+
+.serie-checkbox:checked::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 30px;
+    height: 30px;
+    background-color: #007bff;
+    border-radius: 30px;
 }
