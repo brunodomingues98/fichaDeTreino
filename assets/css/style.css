@@ -2,15 +2,6 @@ body {
     background-color: #000;
 }
 
-.fundoIMG {
-    height: 180px;
-}
-
-.fundoIMG img {
-    margin-top: -220px;
-    width: 100%;
-}
-
 header {
     width: 100%;
     height: 90px;
@@ -35,6 +26,38 @@ a {
     color: #fff;
 }
 
+blockquote {
+    font-size: 21px;
+    margin-left: 70px;
+}
+
+
+.fundoIMG {
+    height: 180px;
+}
+
+.fundoIMG img {
+    margin-top: -220px;
+    width: 100%;
+}
+
+.perfil .menu {
+    display: none;
+}
+
+.perfil {
+    display: flex;
+    justify-content: space-around;
+}
+
+.perfil img {
+    width: 15%;
+    height: 65px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 100%;
+}
+
 .textoInicial {
     color: #f9ba27; 
 }
@@ -45,7 +68,3 @@ a {
     margin-left: 65px;
 }
 
-blockquote {
-    font-size: 22px;
-    margin-left: 70px;
-}
