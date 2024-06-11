@@ -95,61 +95,156 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // Modal Agachamento com Barra
-var modalAgachamento = document.getElementById('modal-agachamento');
-var agachamento = document.getElementById('agachamento');
-var closeButtonAgachamento = modalAgachamento.querySelector('.close-button');
+    var modalAgachamento = document.getElementById('modal-agachamento');
+    var agachamento = document.getElementById('agachamento');
+    var closeButtonAgachamento = modalAgachamento.querySelector('.close-button');
 
-agachamento.addEventListener('click', function () {
-    modalAgachamento.style.display = 'block';
-});
+    agachamento.addEventListener('click', function () {
+        modalAgachamento.style.display = 'block';
+    });
 
-closeButtonAgachamento.addEventListener('click', function () {
-    modalAgachamento.style.display = 'none';
-});
-
-window.addEventListener('click', function (event) {
-    if (event.target == modalAgachamento) {
+    closeButtonAgachamento.addEventListener('click', function () {
         modalAgachamento.style.display = 'none';
-    }
-});
+    });
 
-// Modal Leg Press
-var modalLegPress = document.getElementById('modal-leg');
-var legPress = document.getElementById('legPress');
-var closeButtonLegPress = modalLegPress.querySelector('.close-button');
+    window.addEventListener('click', function (event) {
+        if (event.target == modalAgachamento) {
+            modalAgachamento.style.display = 'none';
+        }
+    });
 
-legPress.addEventListener('click', function () {
-    modalLegPress.style.display = 'block';
-});
+    // Modal Leg Press
+    var modalLegPress = document.getElementById('modal-leg');
+    var legPress = document.getElementById('legPress');
+    var closeButtonLegPress = modalLegPress.querySelector('.close-button');
 
-closeButtonLegPress.addEventListener('click', function () {
-    modalLegPress.style.display = 'none';
-});
+    legPress.addEventListener('click', function () {
+        modalLegPress.style.display = 'block';
+    });
 
-window.addEventListener('click', function (event) {
-    if (event.target == modalLegPress) {
+    closeButtonLegPress.addEventListener('click', function () {
         modalLegPress.style.display = 'none';
-    }
-});
+    });
 
-// Modal Leg Curl
-var modalLegCurl = document.getElementById('modal-curl');
-var legCurl = document.getElementById('curl');
-var closeButtonLegCurl = modalLegCurl.querySelector('.close-button');
+    window.addEventListener('click', function (event) {
+        if (event.target == modalLegPress) {
+            modalLegPress.style.display = 'none';
+        }
+    });
 
-legCurl.addEventListener('click', function () {
-    modalLegCurl.style.display = 'block';
-});
+    // Modal Leg Curl
+    var modalLegCurl = document.getElementById('modal-curl');
+    var legCurl = document.getElementById('curl');
+    var closeButtonLegCurl = modalLegCurl.querySelector('.close-button');
 
-closeButtonLegCurl.addEventListener('click', function () {
-    modalLegCurl.style.display = 'none';
-});
+    legCurl.addEventListener('click', function () {
+        modalLegCurl.style.display = 'block';
+    });
 
-window.addEventListener('click', function (event) {
-    if (event.target == modalLegCurl) {
+    closeButtonLegCurl.addEventListener('click', function () {
         modalLegCurl.style.display = 'none';
-    }
-});
+    });
+
+    window.addEventListener('click', function (event) {
+        if (event.target == modalLegCurl) {
+            modalLegCurl.style.display = 'none';
+        }
+    });
+
+    // Modal Puxada Frontal
+    var modalPuxada = document.getElementById('modal-puxada');
+    var puxada = document.getElementById('puxada');
+    var closeButtonPuxada = modalPuxada.querySelector('.close-button');
+
+    puxada.addEventListener('click', function () {
+        modalPuxada.style.display = 'block';
+    });
+
+    closeButtonPuxada.addEventListener('click', function () {
+        modalPuxada.style.display = 'none';
+    });
+
+    window.addEventListener('click', function (event) {
+        if (event.target == modalPuxada) {
+            modalPuxada.style.display = 'none';
+        }
+    });
+
+    // Modal Elevação Lateral
+    var modalElevacao = document.getElementById('modal-elevacao');
+    var elevacao = document.getElementById('elevacao');
+    var closeButtonElevacao = modalElevacao.querySelector('.close-button');
+
+    elevacao.addEventListener('click', function () {
+        modalElevacao.style.display = 'block';
+    });
+
+    closeButtonElevacao.addEventListener('click', function () {
+        modalElevacao.style.display = 'none';
+    });
+
+    window.addEventListener('click', function (event) {
+        if (event.target == modalElevacao) {
+            modalElevacao.style.display = 'none';
+        }
+    });
+
+    // Modal Supino Inclinado
+    var modalSupinoInclinado = document.getElementById('modal-supinoInclinado');
+    var supinoInclinado = document.getElementById('supinoInclinado');
+    var closeButtonSupinoInclinado = modalSupinoInclinado.querySelector('.close-button');
+
+    supinoInclinado.addEventListener('click', function () {
+        modalSupinoInclinado.style.display = 'block';
+    });
+
+    closeButtonSupinoInclinado.addEventListener('click', function () {
+        modalSupinoInclinado.style.display = 'none';
+    });
+
+    window.addEventListener('click', function (event) {
+        if (event.target == modalSupinoInclinado) {
+            modalSupinoInclinado.style.display = 'none';
+        }
+    });
+
+    // Modal Rosca Alternada
+    var modalRoscaAlternada = document.getElementById('modal-roscaAlternada');
+    var roscaAlternada = document.getElementById('roscaAlternada');
+    var closeButtonRoscaAlternada = modalRoscaAlternada.querySelector('.close-button');
+
+    roscaAlternada.addEventListener('click', function () {
+        modalRoscaAlternada.style.display = 'block';
+    });
+
+    closeButtonRoscaAlternada.addEventListener('click', function () {
+        modalRoscaAlternada.style.display = 'none';
+    });
+
+    window.addEventListener('click', function (event) {
+        if (event.target == modalRoscaAlternada) {
+            modalRoscaAlternada.style.display = 'none';
+        }
+    });
+
+    // Modal Triceps Corda
+    var modalTricepsCorda = document.getElementById('modal-tricepsCorda');
+    var tricepsCorda = document.getElementById('tricepsCorda');
+    var closeButtonTricepsCorda = modalTricepsCorda.querySelector('.close-button');
+
+    tricepsCorda.addEventListener('click', function () {
+        modalTricepsCorda.style.display = 'block';
+    });
+
+    closeButtonTricepsCorda.addEventListener('click', function () {
+        modalTricepsCorda.style.display = 'none';
+    });
+
+    window.addEventListener('click', function (event) {
+        if (event.target == modalTricepsCorda) {
+            modalTricepsCorda.style.display = 'none';
+        }
+    });
 
 
 });
