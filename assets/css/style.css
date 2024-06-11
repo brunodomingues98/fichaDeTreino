@@ -1,16 +1,42 @@
-body, html {
-    margin: 0;
-    padding: 0;
+body {
+    background-color: #000;
+}
+
+.fundoIMG {
+    height: 180px;
+}
+
+.fundoIMG img {
+    margin-top: -220px;
     width: 100%;
-    height: 100%;
-    align-items: center;
-    background: url('/assets/images/fundo-blackMamba.jpg') no-repeat center center fixed;
-    background-size: cover;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    background: rgba(255, 255, 255, 0.2);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 30px;
+    font-size: 26px;
+}
+
+a {
+    text-decoration: underline;
+    color: #fff;
 }
 
 .textoInicial {
-    color: #f9ba27;
-    margin-top: 9rem;
+    color: #f9ba27; 
 }
 
 .textoInicial h1 {
@@ -18,24 +44,8 @@ body, html {
     position: relative;
     margin-left: 65px;
 }
+
 blockquote {
     font-size: 22px;
-}
-
-
-/* .fundoVidro {
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 10px;
-    padding: 20px;
-    width: 80%;
-    max-width: 400px;
-    text-align: center;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    color: #fff;
-} */
-
-@media only screen and (max-width: 620px) {
-    
+    margin-left: 70px;
 }
