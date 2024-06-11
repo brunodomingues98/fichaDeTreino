@@ -41,23 +41,6 @@ blockquote {
     width: 100%;
 }
 
-.perfil .menu {
-    display: none;
-}
-
-.perfil {
-    display: flex;
-    justify-content: space-around;
-}
-
-.perfil img {
-    width: 15%;
-    height: 65px;
-    margin-top: 15px;
-    margin-left: 10px;
-    border-radius: 100%;
-}
-
 .textoInicial {
     color: #f9ba27; 
 }
