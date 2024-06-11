@@ -1,3 +1,4 @@
+// Treino A
 document.addEventListener('DOMContentLoaded', function () {
     // Modal Supino
     var modalSupino = document.getElementById('modal-supino');
@@ -93,8 +94,11 @@ document.addEventListener('DOMContentLoaded', function () {
             modalRoscaDireta.style.display = 'none';
         }
     });
+});
 
-    // Modal Agachamento com Barra
+// Treino B
+document.addEventListener('DOMContentLoaded', function () {
+    // Modal Agachamento Com Barra
     var modalAgachamento = document.getElementById('modal-agachamento');
     var agachamento = document.getElementById('agachamento');
     var closeButtonAgachamento = modalAgachamento.querySelector('.close-button');
@@ -150,7 +154,10 @@ document.addEventListener('DOMContentLoaded', function () {
             modalLegCurl.style.display = 'none';
         }
     });
+});
 
+// Treino C
+document.addEventListener('DOMContentLoaded', function () {
     // Modal Puxada Frontal
     var modalPuxada = document.getElementById('modal-puxada');
     var puxada = document.getElementById('puxada');
@@ -245,6 +252,5 @@ document.addEventListener('DOMContentLoaded', function () {
             modalTricepsCorda.style.display = 'none';
         }
     });
-
-
 });
+
