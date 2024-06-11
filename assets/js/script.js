@@ -94,4 +94,62 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
+    // Modal Agachamento com Barra
+var modalAgachamento = document.getElementById('modal-agachamento');
+var agachamento = document.getElementById('agachamento');
+var closeButtonAgachamento = modalAgachamento.querySelector('.close-button');
+
+agachamento.addEventListener('click', function () {
+    modalAgachamento.style.display = 'block';
+});
+
+closeButtonAgachamento.addEventListener('click', function () {
+    modalAgachamento.style.display = 'none';
+});
+
+window.addEventListener('click', function (event) {
+    if (event.target == modalAgachamento) {
+        modalAgachamento.style.display = 'none';
+    }
+});
+
+// Modal Leg Press
+var modalLegPress = document.getElementById('modal-leg');
+var legPress = document.getElementById('legPress');
+var closeButtonLegPress = modalLegPress.querySelector('.close-button');
+
+legPress.addEventListener('click', function () {
+    modalLegPress.style.display = 'block';
+});
+
+closeButtonLegPress.addEventListener('click', function () {
+    modalLegPress.style.display = 'none';
+});
+
+window.addEventListener('click', function (event) {
+    if (event.target == modalLegPress) {
+        modalLegPress.style.display = 'none';
+    }
+});
+
+// Modal Leg Curl
+var modalLegCurl = document.getElementById('modal-curl');
+var legCurl = document.getElementById('curl');
+var closeButtonLegCurl = modalLegCurl.querySelector('.close-button');
+
+legCurl.addEventListener('click', function () {
+    modalLegCurl.style.display = 'block';
+});
+
+closeButtonLegCurl.addEventListener('click', function () {
+    modalLegCurl.style.display = 'none';
+});
+
+window.addEventListener('click', function (event) {
+    if (event.target == modalLegCurl) {
+        modalLegCurl.style.display = 'none';
+    }
+});
+
+
 });
