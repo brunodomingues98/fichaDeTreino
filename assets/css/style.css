@@ -51,3 +51,17 @@ blockquote {
     margin-left: 65px;
 }
 
+nav img {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    border-radius: 100%;
+    top: -25px;
+    right: 10px;
+}
+
+nav span {
+    position: relative;
+    top: -15px;
+    left: 10px;
+}

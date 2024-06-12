@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+    <title>Meu treino B</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/treino.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="/html/caterine/treinoA.html">Treino A</a>
+            <a href="/html/caterine/treinoB.html">Treino B</a>
+            <a href="/html/caterine/treinoC.html">Treino C</a> 
+        </nav>
+    </header>
+    <section class="textoPagina">
+        <h1>Dia B: Costas e Bíceps</h1>
+    </section>
+
+    <main>
+        <section>
+            <div class="fundoIMG">
+                <img src="/assets/images/fundo-blackMamba.png">
+            </div>
+        </section>
+        <section class="fundoVidro">
+            <div class="treino">
+                <ul>
+                    <li id="aquecimentoEsteira">
+                        Aquecimento: 5 - 10 minutos de esteira <br>
+                        <!-- <img src="/assets/images/treinos/esteira.gif">                         -->
+                    </li>
+                    <div class="marcadores">
+                        <label>
+                            <input type="checkbox" name="supino-serie1" class="serie-checkbox"> <span>Aquecimento</span>
+                        </label>                            
+                    </div>
+                    <hr>
+
+                    <li id="puxadaAlta">
+                        Puxada Alta na Polia <br>
+                        <img src="/assets/images/treinos/puxadaFrontal.webp">
+                    </li>
+                    <div class="marcadores">
+                        <label>
+                            <input type="checkbox" name="supino-serie1" class="serie-checkbox"> <span>Série 1</span>
+                        </label>
+                        <div class="timer" id="timer1">Descanso 60</div>
+                        <label class="hidden">
+                            <input type="checkbox" name="supino-serie2" class="serie-checkbox"> <span>Série 2</span>
+                        </label>
+                        <div class="timer" id="timer2">Descanso 60</div>
+                        <label class="hidden">
+                            <input type="checkbox" name="supino-serie3" class="serie-checkbox"> <span>Série 3</span>
+                        </label>
+                        <div class="timer" id="timer3">Descanso 60</div>
+                    </div>
+                    <hr>
+
+                    <li id="remavaCurvadaBarra">
+                        Remada Curvada com Barra <br>
+                        <img src="/assets/images/treinos/remadaCurvadaBarra.webp">
+                    </li>
+                    <div class="marcadores">
+                        <label>
+                            <input type="checkbox" name="supino-serie1" class="serie-checkbox"> <span>Série 1</span>
+                        </label>
+                        <div class="timer" id="timer1">Descanso 60</div>
+                        <label class="hidden">
+                            <input type="checkbox" name="supino-serie2" class="serie-checkbox"> <span>Série 2</span>
+                        </label>
+                        <div class="timer" id="timer2">Descanso 60</div>
+                        <label class="hidden">
+                            <input type="checkbox" name="supino-serie3" class="serie-checkbox"> <span>Série 3</span>
+                        </label>
+                        <div class="timer" id="timer3">Descanso 60</div>
+                    </div>
+                    <hr>
+
+                    <li id="roscaDireta">
+                        Rosca Direta com Halteres <br>
+                        <img src="/assets/images/treinos/roscaDireta.gif">
+                    </li>
+                    <div class="marcadores">
+                        <label>
+                            <input type="checkbox" name="supino-serie1" class="serie-checkbox"> <span>Série 1</span>
+                        </label>
+                        <div class="timer" id="timer1">Descanso 60</div>
+                        <label class="hidden">
+                            <input type="checkbox" name="supino-serie2" class="serie-checkbox"> <span>Série 2</span>
+                        </label>
+                        <div class="timer" id="timer2">Descanso 60</div>
+                        <label class="hidden">
+                            <input type="checkbox" name="supino-serie3" class="serie-checkbox"> <span>Série 3</span>
+                        </label>
+                        <div class="timer" id="timer3">Descanso 60</div>
+                    </div>
+                    <hr>
+                </ul>
+            </div>
+    
+            <!-- Inicio dos modais de cada exercicio -->
+            <div class="modais">           
+                <!-- Modal Puxada Alta na Polia -->
+                <div id="modal-puxadaAltaPolia" class="modal">
+                    <div class="modal-content">
+                        <span class="close-button">&times;</span>
+                        <h2>Puxada Alta na Polia</h2>
+                        
+                    </div>
+                </div>
+
+                <!-- Modal Remada Curvada com Barra -->
+                <div id="modal-remadaCurvadaBarra" class="modal">
+                    <div class="modal-content">
+                        <span class="close-button">&times;</span>
+                        <h2>Remada Curvada com Barra</h2>
+                        
+                    </div>
+                </div>
+                
+                <!-- Modal Rosca Direta -->
+                <div id="modal-roscaDireta" class="modal">
+                    <div class="modal-content">
+                        <span class="close-button">&times;</span>
+                        <h2>Rosca Direta</h2>
+                        <p>
+                            1 - Escolha o peso: Selecione uma barra ou halteres com o peso adequado para o seu nível de força. <br><br>
+                            2 - Posição inicial: Fique em pé com os pés afastados na largura dos ombros. Se estiver usando uma barra, segure-a com as palmas das mãos voltadas para cima (supinadas) e as mãos na largura dos ombros. <br><br>
+                            3 - Levantamento: Mantendo os cotovelos fixos ao lado do corpo, levante o peso até que seus bíceps estejam completamente contraídos e a barra esteja no nível do peito. <br><br>
+                            4 - Descida controlada: Abaixe a barra lentamente de volta à posição inicial, mantendo os músculos dos bíceps engajados. <br><br>
+                            5 - Respire: Inspire ao abaixar o peso e expire ao levantá-lo.                    
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        
+    </footer>
+</body>
+<script type="text/javascript" src="/assets/js/script.js"></script>
+<script type="text/javascript" src="/assets/js/modais.js"></script>
+</html>
