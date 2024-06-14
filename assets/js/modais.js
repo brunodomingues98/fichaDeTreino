@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    // Modal Remada
+    // Modal Remada com Halteres
     var modalRemada = document.getElementById('modal-remada');
     var remada = document.getElementById('remada');
     var closeButtonRemada = modalRemada.querySelector('.close-button');
@@ -252,5 +252,24 @@ document.addEventListener('DOMContentLoaded', function () {
             modalTricepsCorda.style.display = 'none';
         }
     });
+});
+
+// Modal Remada Articulada
+var modalRemada = document.getElementById('modal-remada-articulada');
+var remada = document.getElementById('remadaArticulada');
+var closeButtonRemada = modalRemada.querySelector('.close-button');
+
+remada.addEventListener('click', function () {
+    modalRemada.style.display = 'block';
+});
+
+closeButtonRemada.addEventListener('click', function () {
+    modalRemada.style.display = 'none';
+});
+
+window.addEventListener('click', function (event) {
+    if (event.target == modalRemada) {
+        modalRemada.style.display = 'none';
+    }
 });
 
