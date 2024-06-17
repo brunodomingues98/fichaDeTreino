@@ -70,10 +70,14 @@ footer {
     padding: 10px 0;
     background: rgb(53,26,65);
     background: linear-gradient(90deg, rgba(53,26,65,1) 0%, rgba(143,100,21,1) 70%, rgba(247,207,73,1) 100%);
-    color: white;
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+footer p {
+    color: #fff;
+    font-size: 12px;
 }
 
 a {
@@ -126,4 +130,18 @@ nav span {
     position: relative;
     top: -15px;
     left: 10px;
+}
+
+.textoInicial.interno {
+    margin-top: -175px;
+}
+
+.textoInicial.interno h1 {
+    margin-left: 10px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+
+.textoInicial.interno p {
+    font-size: 22px;
 }
