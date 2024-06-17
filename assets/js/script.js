@@ -1,3 +1,8 @@
+document.querySelector('.hamburger').addEventListener('click', () => {
+    const menu = document.querySelector('nav');
+    menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+});  
+
 document.addEventListener('DOMContentLoaded', function() {
     const checkboxes = document.querySelectorAll('.serie-checkbox');
     const timers = document.querySelectorAll('.timer');
