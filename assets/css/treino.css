@@ -139,3 +139,8 @@ p {
     background-color: #007bff;
     border-radius: 30px;
 }
+
+footer img {
+    width: 100px;
+    height: 50px;
+}

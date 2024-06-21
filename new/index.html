@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha de Treino ABC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ficha de Treino ABC</h1>
+        
+        <div class="workout" id="treinoA">
+            <h2>Dia A - Peito e Bíceps</h2>
+            <img src="img/treinoA.jpg" alt="Treino A" class="workout-img" data-treino="A">
+            <div class="checklist">
+                <label><input type="checkbox" class="checklist-item" data-treino="Supino Reto"> Supino Reto - 4 séries de 8-12 repetições</label>
+                <label><input type="checkbox" class="checklist-item" data-treino="Supino Inclinado"> Supino Inclinado com Halteres - 3 séries de 8-12 repetições</label>
+                <label><input type="checkbox" class="checklist-item" data-treino="Crucifixo"> Crucifixo - 3 séries de 12-15 repetições</label>
+                <label><input type="checkbox" class="checklist-item" data-treino="Rosca Direta"> Rosca Direta - 4 séries de 8-12 repetições</label>
+                <label><input type="checkbox" class="checklist-item" data-treino="Rosca Alternada"> Rosca Alternada - 3 séries de 10-15 repetições</label>
+            </div>
+        </div>
+
+        <div class="workout" id="treinoB">
+            <h2>Dia B - Perna e Costas</h2>
+            <img src="img/treinoB.jpg" alt="Treino B" class="workout-img" data-treino="B">
+            <div class="checklist">
+                <label><input type="checkbox" class="checklist-item" data-treino="Agachamento"> Agachamento com Barra - 3 séries de 8-12 repetições</label>
+                <label><input type="checkbox" class="checklist-item" data-treino="Leg Press"> Leg Press - 3 séries de 10-15 repetições</label>
+                <label><input type="checkbox" class="checklist-item" data-treino="Stiff"> Stiff - 3 séries de 8-12 repetições</label>
+                <label><input type="checkbox" class="checklist-item" data-treino="Puxada Frontal"> Puxada Frontal - 4 séries de 8-12 repetições</label>
+                <label><input type="checkbox" class="checklist-item" data-treino="Remada Curvada"> Remada Curvada - 3 séries de 8-12 repetições</label>
+                <label><input type="checkbox" class="checklist-item" data-treino="Panturrilha Sentado"> Panturrilha Sentado - 4 séries de 12-15 repetições</label>
+            </div>
+        </div>
+
+        <div class="workout" id="treinoC">
+            <h2>Dia C - Ombro e Tríceps</h2>
+            <img src="img/treinoC.jpg" alt="Treino C" class="workout-img" data-treino="C">
+            <div class="checklist">
+                <label><input type="checkbox" class="checklist-item" data-treino="Desenvolvimento"> Desenvolvimento com Halteres - 4 séries de 8-12 repetições</label>
+                <label><input type="checkbox" class="checklist-item" data-treino="Elevação Lateral"> Elevação Lateral - 3 séries de 12-15 repetições</label>
+                <label><input type="checkbox" class="checklist-item" data-treino="Elevação Frontal"> Elevação Frontal - 3 séries de 12-15 repetições</label>
+                <label><input type="checkbox" class="checklist-item" data-treino="Tríceps na Polia"> Tríceps na Polia (corda) - 4 séries de 8-12 repetições</label>
+                <label><input type="checkbox" class="checklist-item" data-treino="Tríceps na Máquina"> Tríceps na Máquina - 3 séries de 8-12 repetições</label>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Detalhes do Treino</h2>
+            <p id="modal-text"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
