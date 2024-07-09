@@ -1,3 +1,4 @@
+// Inicio modais treino A - Pessoa 1
 // Modal Supino
 var modalSupino = document.getElementById('modal-supino');
 var supino = document.getElementById('supino');
@@ -88,3 +89,70 @@ bicepsMaquina.addEventListener('click', function () {
 closeButtonBicepsMaquina.addEventListener('click', function () {
     modalBicepsMaquina.style.display = 'none';
 });
+// Fim modais treino A - pessoa 1
+
+// Inicio modais treino B - pessoa 1
+// Função para abrir e fechar modais
+function initModal(modalId, triggerId) {
+    var modal = document.getElementById(modalId);
+    var trigger = document.getElementById(triggerId);
+    var closeButton = modal.querySelector('.close-button');
+
+    trigger.addEventListener('click', function() {
+        modal.style.display = 'block';
+    });
+
+    closeButton.addEventListener('click', function() {
+        modal.style.display = 'none';
+    });
+
+    window.addEventListener('click', function(event) {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
+}
+
+// Inicializar modais
+initModal('modal-agachamento', 'agachamento');
+initModal('modal-legPress', 'legPress');
+initModal('modal-curl', 'curl');
+initModal('modal-bancoExtensor', 'bancoExtensor');
+initModal('modal-panturrilhaSentado', 'panturrilhaSentado');
+initModal('modal-abdominalMaquina', 'abdominalMaquina');
+initModal('modal-roscaPunhoMartelo', 'roscaPunhoMartelo');
+
+// Fim modais treino B - pessoa 1
+
+// Inicio modais treino C - pessoa 1
+// Função para abrir e fechar modais
+function initModal(modalId, triggerId) {
+    var modal = document.getElementById(modalId);
+    var trigger = document.getElementById(triggerId);
+    var closeButton = modal.querySelector('.close-button');
+
+    trigger.addEventListener('click', function() {
+        modal.style.display = 'block';
+    });
+
+    closeButton.addEventListener('click', function() {
+        modal.style.display = 'none';
+    });
+
+    window.addEventListener('click', function(event) {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
+}
+
+// Inicializar modais
+initModal('modal-puxadaFrontal', 'puxadaFrontal');
+initModal('modal-puxadaNeutraTriangulo', 'puxadaNeutraTriangulo');
+initModal('modal-puxadaBaixa', 'puxadaBaixa');
+initModal('modal-remadaArticulada', 'remadaArticulada');
+initModal('modal-crucifixoInvertido', 'crucifixoInvertido');
+initModal('modal-tricepsMaquina', 'tricepsMaquina');
+initModal('modal-tricepsCorda', 'tricepsCorda');
+initModal('modal-roscaAlternada', 'roscaAlternada');
+// Fim modais treino C - pessoa 1
