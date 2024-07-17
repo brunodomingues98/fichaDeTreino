@@ -92,67 +92,200 @@ closeButtonBicepsMaquina.addEventListener('click', function () {
 // Fim modais treino A - pessoa 1
 
 // Inicio modais treino B - pessoa 1
-// Função para abrir e fechar modais
-function initModal(modalId, triggerId) {
-    var modal = document.getElementById(modalId);
-    var trigger = document.getElementById(triggerId);
-    var closeButton = modal.querySelector('.close-button');
+// Modal Agachamento
+var modalAgachamento = document.getElementById('modal-agachamento');
+var agachamento = document.getElementById('agachamento');
+var closeButtonAgachamento = modalAgachamento.querySelector('.close-button');
 
-    trigger.addEventListener('click', function() {
-        modal.style.display = 'block';
-    });
+agachamento.addEventListener('click', function () {
+    modalAgachamento.style.display = 'block';
+});
 
-    closeButton.addEventListener('click', function() {
-        modal.style.display = 'none';
-    });
+closeButtonAgachamento.addEventListener('click', function () {
+    modalAgachamento.style.display = 'none';
+});
 
-    window.addEventListener('click', function(event) {
-        if (event.target === modal) {
-            modal.style.display = 'none';
-        }
-    });
-}
+// Modal Leg Press
+var modalLegPress = document.getElementById('modal-legPress');
+var legPress = document.getElementById('legPress');
+var closeButtonLegPress = modalLegPress.querySelector('.close-button');
 
-// Inicializar modais
-initModal('modal-agachamento', 'agachamento');
-initModal('modal-legPress', 'legPress');
-initModal('modal-curl', 'curl');
-initModal('modal-bancoExtensor', 'bancoExtensor');
-initModal('modal-panturrilhaSentado', 'panturrilhaSentado');
-initModal('modal-abdominalMaquina', 'abdominalMaquina');
-initModal('modal-roscaPunhoMartelo', 'roscaPunhoMartelo');
+legPress.addEventListener('click', function () {
+    modalLegPress.style.display = 'block';
+});
 
+closeButtonLegPress.addEventListener('click', function () {
+    modalLegPress.style.display = 'none';
+});
+
+// Modal Leg Curl
+var modalCurl = document.getElementById('modal-curl');
+var curl = document.getElementById('curl');
+var closeButtonCurl = modalCurl.querySelector('.close-button');
+
+curl.addEventListener('click', function () {
+    modalCurl.style.display = 'block';
+});
+
+closeButtonCurl.addEventListener('click', function () {
+    modalCurl.style.display = 'none';
+});
+
+// Modal Banco Extensor
+var modalBancoExtensor = document.getElementById('modal-bancoExtensor');
+var bancoExtensor = document.getElementById('bancoExtensor');
+var closeButtonBancoExtensor = modalBancoExtensor.querySelector('.close-button');
+
+bancoExtensor.addEventListener('click', function () {
+    modalBancoExtensor.style.display = 'block';
+});
+
+closeButtonBancoExtensor.addEventListener('click', function () {
+    modalBancoExtensor.style.display = 'none';
+});
+
+// Modal Panturrilha Sentado
+var modalPanturrilhaSentado = document.getElementById('modal-panturrilhaSentado');
+var panturrilhaSentado = document.getElementById('panturrilhaSentado');
+var closeButtonPanturrilhaSentado = modalPanturrilhaSentado.querySelector('.close-button');
+
+panturrilhaSentado.addEventListener('click', function () {
+    modalPanturrilhaSentado.style.display = 'block';
+});
+
+closeButtonPanturrilhaSentado.addEventListener('click', function () {
+    modalPanturrilhaSentado.style.display = 'none';
+});
+
+// Modal Abdominal Máquina
+var modalAbdominalMaquina = document.getElementById('modal-abdominalMaquina');
+var abdominalMaquina = document.getElementById('abdominalMaquina');
+var closeButtonAbdominalMaquina = modalAbdominalMaquina.querySelector('.close-button');
+
+abdominalMaquina.addEventListener('click', function () {
+    modalAbdominalMaquina.style.display = 'block';
+});
+
+closeButtonAbdominalMaquina.addEventListener('click', function () {
+    modalAbdominalMaquina.style.display = 'none';
+});
+
+// Modal Rosca Punho Martelo
+var modalRoscaPunhoMartelo = document.getElementById('modal-roscaPunhoMartelo');
+var roscaPunhoMartelo = document.getElementById('roscaPunhoMartelo');
+var closeButtonRoscaPunhoMartelo = modalRoscaPunhoMartelo.querySelector('.close-button');
+
+roscaPunhoMartelo.addEventListener('click', function () {
+    modalRoscaPunhoMartelo.style.display = 'block';
+});
+
+closeButtonRoscaPunhoMartelo.addEventListener('click', function () {
+    modalRoscaPunhoMartelo.style.display = 'none';
+});
 // Fim modais treino B - pessoa 1
 
 // Inicio modais treino C - pessoa 1
-// Função para abrir e fechar modais
-function initModal(modalId, triggerId) {
-    var modal = document.getElementById(modalId);
-    var trigger = document.getElementById(triggerId);
-    var closeButton = modal.querySelector('.close-button');
+// Modal Puxada Frontal
+var modalPuxadaFrontal = document.getElementById('modal-puxadaFrontal');
+var puxadaFrontal = document.getElementById('puxadaFrontal');
+var closeButtonPuxadaFrontal = modalPuxadaFrontal.querySelector('.close-button');
 
-    trigger.addEventListener('click', function() {
-        modal.style.display = 'block';
-    });
+puxadaFrontal.addEventListener('click', function () {
+    modalPuxadaFrontal.style.display = 'block';
+});
 
-    closeButton.addEventListener('click', function() {
-        modal.style.display = 'none';
-    });
+closeButtonPuxadaFrontal.addEventListener('click', function () {
+    modalPuxadaFrontal.style.display = 'none';
+});
 
-    window.addEventListener('click', function(event) {
-        if (event.target === modal) {
-            modal.style.display = 'none';
-        }
-    });
-}
+// Modal Puxada Neutra Triangulo
+var modalPuxadaNeutraTriangulo = document.getElementById('modal-puxadaNeutraTriangulo');
+var puxadaNeutraTriangulo = document.getElementById('puxadaNeutraTriangulo');
+var closeButtonPuxadaNeutraTriangulo = modalPuxadaNeutraTriangulo.querySelector('.close-button');
 
-// Inicializar modais
-initModal('modal-puxadaFrontal', 'puxadaFrontal');
-initModal('modal-puxadaNeutraTriangulo', 'puxadaNeutraTriangulo');
-initModal('modal-puxadaBaixa', 'puxadaBaixa');
-initModal('modal-remadaArticulada', 'remadaArticulada');
-initModal('modal-crucifixoInvertido', 'crucifixoInvertido');
-initModal('modal-tricepsMaquina', 'tricepsMaquina');
-initModal('modal-tricepsCorda', 'tricepsCorda');
-initModal('modal-roscaAlternada', 'roscaAlternada');
+puxadaNeutraTriangulo.addEventListener('click', function () {
+    modalPuxadaNeutraTriangulo.style.display = 'block';
+});
+
+closeButtonPuxadaNeutraTriangulo.addEventListener('click', function () {
+    modalPuxadaNeutraTriangulo.style.display = 'none';
+});
+
+// Modal Puxada Baixa
+var modalPuxadaBaixa = document.getElementById('modal-puxadaBaixa');
+var puxadaBaixa = document.getElementById('puxadaBaixa');
+var closeButtonPuxadaBaixa = modalPuxadaBaixa.querySelector('.close-button');
+
+puxadaBaixa.addEventListener('click', function () {
+    modalPuxadaBaixa.style.display = 'block';
+});
+
+closeButtonPuxadaBaixa.addEventListener('click', function () {
+    modalPuxadaBaixa.style.display = 'none';
+});
+
+// Modal Remada Articulada
+var modalRemadaArticulada = document.getElementById('modal-remadaArticulada');
+var remadaArticulada = document.getElementById('remadaArticulada');
+var closeButtonRemadaArticulada = modalRemadaArticulada.querySelector('.close-button');
+
+remadaArticulada.addEventListener('click', function () {
+    modalRemadaArticulada.style.display = 'block';
+});
+
+closeButtonRemadaArticulada.addEventListener('click', function () {
+    modalRemadaArticulada.style.display = 'none';
+});
+
+// Modal Crucifixo Invertido
+var modalCrucifixoInvertido = document.getElementById('modal-crucifixoInvertido');
+var crucifixoInvertido = document.getElementById('crucifixoInvertido');
+var closeButtonCrucifixoInvertido = modalCrucifixoInvertido.querySelector('.close-button');
+
+crucifixoInvertido.addEventListener('click', function () {
+    modalCrucifixoInvertido.style.display = 'block';
+});
+
+closeButtonCrucifixoInvertido.addEventListener('click', function () {
+    modalCrucifixoInvertido.style.display = 'none';
+});
+
+// Modal Triceps Máquina
+var modalTricepsMaquina = document.getElementById('modal-tricepsMaquina');
+var tricepsMaquina = document.getElementById('tricepsMaquina');
+var closeButtonTricepsMaquina = modalTricepsMaquina.querySelector('.close-button');
+
+tricepsMaquina.addEventListener('click', function () {
+    modalTricepsMaquina.style.display = 'block';
+});
+
+closeButtonTricepsMaquina.addEventListener('click', function () {
+    modalTricepsMaquina.style.display = 'none';
+});
+
+// Modal Triceps na Corda
+var modalTricepsCorda = document.getElementById('modal-tricepsCorda');
+var tricepsCorda = document.getElementById('tricepsCorda');
+var closeButtonTricepsCorda = modalTricepsCorda.querySelector('.close-button');
+
+tricepsCorda.addEventListener('click', function () {
+    modalTricepsCorda.style.display = 'block';
+});
+
+closeButtonTricepsCorda.addEventListener('click', function () {
+    modalTricepsCorda.style.display = 'none';
+});
+
+// Modal Rosca Alternada
+var modalRoscaAlternada = document.getElementById('modal-roscaAlternada');
+var roscaAlternada = document.getElementById('roscaAlternada');
+var closeButtonRoscaAlternada = modalRoscaAlternada.querySelector('.close-button');
+
+roscaAlternada.addEventListener('click', function () {
+    modalRoscaAlternada.style.display = 'block';
+});
+
+closeButtonRoscaAlternada.addEventListener('click', function () {
+    modalRoscaAlternada.style.display = 'none';
+});
 // Fim modais treino C - pessoa 1
