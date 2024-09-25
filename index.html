@@ -32,21 +32,4 @@
         </footer>
     </body>
     <script src="/assets/js/script.js"></script>
-    <script>
-        document.querySelector('.hamburger').addEventListener('click', function() {
-    const menuContainer = document.querySelector('.menu-container');
-    const hamburgerButton = this;
-
-    menuContainer.classList.toggle('show'); // Alterna a classe 'show'
-    hamburgerButton.classList.toggle('open'); // Alterna a classe 'open'
-    
-    // Altera o conteúdo do botão baseado na classe 'open'
-    if (hamburgerButton.classList.contains('open')) {
-        hamburgerButton.innerHTML = "&#10006;"; // "X"
-    } else {
-        hamburgerButton.innerHTML = "&#9776;"; // Hamburger
-    }
-});
-
-    </script>
 </html>

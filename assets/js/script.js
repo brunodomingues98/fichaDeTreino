@@ -1,8 +1,25 @@
+// Menu
 document.querySelector('.hamburger').addEventListener('click', () => {
     const menu = document.querySelector('nav');
     menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
-});  
+});
 
+document.querySelector('.hamburger').addEventListener('click', function() {
+    const menuContainer = document.querySelector('.menu-container');
+    const hamburgerButton = this;
+
+    menuContainer.classList.toggle('show'); 
+    hamburgerButton.classList.toggle('open'); 
+    
+    if (hamburgerButton.classList.contains('open')) {
+        hamburgerButton.innerHTML = "&#10006;"; // "X"
+    } else {
+        hamburgerButton.innerHTML = "&#9776;"; // Hamburger
+    }
+});
+// Menu - Fim
+
+// Contador
 document.addEventListener('DOMContentLoaded', function() {
     const checkboxes = document.querySelectorAll('.serie-checkbox');
     const timers = document.querySelectorAll('.timer');
@@ -35,3 +52,4 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 1000);
     }
 });
+// Contador - Fim
