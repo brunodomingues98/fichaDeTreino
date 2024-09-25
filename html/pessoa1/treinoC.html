@@ -28,182 +28,273 @@
                 <ul>
                     <li id="puxadaFrontal">
                         Puxada Frontal <br>
-                        <img src="/assets/images/treinos/superiores/puxadaFrontal.webp">
+                        <img src="/assets/images/treinos/superiores/puxadaFrontal.webp" onclick="openModal('modalPuxadaFrontal')">
                     </li>
                     <div class="marcadores">
                         <label>
-                            <input type="checkbox" name="puxadaFrontal-serie1" class="serie-checkbox"> <span>Série
-                                1</span>
+                            <input type="checkbox" name="puxadaFrontal-serie1" class="serie-checkbox"> <span>Série 1</span>
                         </label>
                         <div class="timer" id="timer1">Descanso 60</div>
                         <label class="hidden">
-                            <input type="checkbox" name="puxadaFrontal-serie2" class="serie-checkbox"> <span>Série
-                                2</span>
+                            <input type="checkbox" name="puxadaFrontal-serie2" class="serie-checkbox"> <span>Série 2</span>
                         </label>
                         <div class="timer" id="timer2">Descanso 60</div>
                         <label class="hidden">
-                            <input type="checkbox" name="puxadaFrontal-serie3" class="serie-checkbox"> <span>Série
-                                3</span>
+                            <input type="checkbox" name="puxadaFrontal-serie3" class="serie-checkbox"> <span>Série 3</span>
                         </label>
                         <div class="timer" id="timer3">Descanso 60</div>
                     </div>
                     <hr>
-
+            
                     <li id="puxadaBaixa">
                         Puxada Baixa <br>
-                        <img src="/assets/images/treinos/superiores/remadaBaixa.gif">
+                        <img src="/assets/images/treinos/superiores/remadaBaixa.gif" onclick="openModal('modalPuxadaBaixa')">
                     </li>
                     <div class="marcadores">
                         <label>
-                            <input type="checkbox" name="puxadaBaixa-serie1" class="serie-checkbox"> <span>Série
-                                1</span>
+                            <input type="checkbox" name="puxadaBaixa-serie1" class="serie-checkbox"> <span>Série 1</span>
+                        </label>
+                        <div class="timer" id="timer4">Descanso 60</div>
+                        <label class="hidden">
+                            <input type="checkbox" name="puxadaBaixa-serie2" class="serie-checkbox"> <span>Série 2</span>
+                        </label>
+                        <div class="timer" id="timer5">Descanso 60</div>
+                        <label class="hidden">
+                            <input type="checkbox" name="puxadaBaixa-serie3" class="serie-checkbox"> <span>Série 3</span>
+                        </label>
+                        <div class="timer" id="timer6">Descanso 60</div>
+                    </div>
+                    <hr>
+            
+                    <li id="remadaArticulada">
+                        Remada Articulada <br>
+                        <img src="/assets/images/treinos/superiores/remadaArticulada.gif" onclick="openModal('modalRemadaArticulada')">
+                    </li>
+                    <div class="marcadores">
+                        <label>
+                            <input type="checkbox" name="remadaArticulada-serie1" class="serie-checkbox"> <span>Série 1</span>
                         </label>
                         <div class="timer" id="timer7">Descanso 60</div>
                         <label class="hidden">
-                            <input type="checkbox" name="puxadaBaixa-serie2" class="serie-checkbox"> <span>Série
-                                2</span>
+                            <input type="checkbox" name="remadaArticulada-serie2" class="serie-checkbox"> <span>Série 2</span>
                         </label>
                         <div class="timer" id="timer8">Descanso 60</div>
                         <label class="hidden">
-                            <input type="checkbox" name="puxadaBaixa-serie3" class="serie-checkbox"> <span>Série
-                                3</span>
+                            <input type="checkbox" name="remadaArticulada-serie3" class="serie-checkbox"> <span>Série 3</span>
                         </label>
                         <div class="timer" id="timer9">Descanso 60</div>
                     </div>
                     <hr>
-
-                    <li id="remadaArticulada">
-                        Remada Articulada <br>
-                        <img src="/assets/images/treinos/superiores/remadaArticulada.gif">
+            
+                    <li id="remadaCurvadaHalteres">
+                        Remada Curvada Halteres <br>
+                        <img src="/assets/images/treinos/superiores/RemadaCurvadaHalter.gif" onclick="openModal('modalRemadaCurvada')">
                     </li>
                     <div class="marcadores">
                         <label>
-                            <input type="checkbox" name="remadaArticulada-serie1" class="serie-checkbox"> <span>Série
-                                1</span>
+                            <input type="checkbox" name="remadaCurvada-serie1" class="serie-checkbox"> <span>Série 1</span>
                         </label>
                         <div class="timer" id="timer10">Descanso 60</div>
                         <label class="hidden">
-                            <input type="checkbox" name="remadaArticulada-serie2" class="serie-checkbox"> <span>Série
-                                2</span>
+                            <input type="checkbox" name="remadaCurvada-serie2" class="serie-checkbox"> <span>Série 2</span>
                         </label>
                         <div class="timer" id="timer11">Descanso 60</div>
                         <label class="hidden">
-                            <input type="checkbox" name="remadaArticulada-serie3" class="serie-checkbox"> <span>Série
-                                3</span>
+                            <input type="checkbox" name="remadaCurvada-serie3" class="serie-checkbox"> <span>Série 3</span>
                         </label>
                         <div class="timer" id="timer12">Descanso 60</div>
                     </div>
                     <hr>
-
-                    <li id="">
-                        Remada Curvada Halteres <br>
-                        <img src="/assets/images/treinos/superiores/RemadaCurvadaHalter.gif">
-                    </li>
-                    <div class="marcadores">
-                        <label>
-                            <input type="checkbox" name="-serie1" class="serie-checkbox">
-                            <span>Série 1</span>
-                        </label>
-                        <div class="timer" id="timer4">Descanso 60</div>
-                        <label class="hidden">
-                            <input type="checkbox" name="-serie2" class="serie-checkbox">
-                            <span>Série 2</span>
-                        </label>
-                        <div class="timer" id="timer5">Descanso 60</div>
-                        <label class="hidden">
-                            <input type="checkbox" name="-serie3" class="serie-checkbox">
-                            <span>Série 3</span>
-                        </label>
-                        <div class="timer" id="timer6">Descanso 60</div>
-                    </div>
-                    <hr>                    
-
+            
                     <li id="crucifixoInvertido">
                         Crucifixo Invertido Máquina <br>
-                        <img src="/assets/images/treinos/superiores/crucifixoInvertido.gif">
+                        <img src="/assets/images/treinos/superiores/crucifixoInvertido.gif" onclick="openModal('modalCrucifixoInvertido')">
                     </li>
                     <div class="marcadores">
                         <label>
-                            <input type="checkbox" name="crucifixoInvertido-serie1" class="serie-checkbox"> <span>Série
-                                1</span>
+                            <input type="checkbox" name="crucifixoInvertido-serie1" class="serie-checkbox"> <span>Série 1</span>
                         </label>
                         <div class="timer" id="timer13">Descanso 60</div>
                         <label class="hidden">
-                            <input type="checkbox" name="crucifixoInvertido-serie2" class="serie-checkbox"> <span>Série
-                                2</span>
+                            <input type="checkbox" name="crucifixoInvertido-serie2" class="serie-checkbox"> <span>Série 2</span>
                         </label>
                         <div class="timer" id="timer14">Descanso 60</div>
                         <label class="hidden">
-                            <input type="checkbox" name="crucifixoInvertido-serie3" class="serie-checkbox"> <span>Série
-                                3</span>
+                            <input type="checkbox" name="crucifixoInvertido-serie3" class="serie-checkbox"> <span>Série 3</span>
                         </label>
                         <div class="timer" id="timer15">Descanso 60</div>
                     </div>
                     <hr>
-
+            
                     <li id="roscaBarra">
                         Rosca Barra <br>
-                        <img src="/assets/images/treinos/superiores/rosca-direta-barra.gif">
+                        <img src="/assets/images/treinos/superiores/rosca-direta-barra.gif" onclick="openModal('modalRoscaBarra')">
                     </li>
                     <div class="marcadores">
                         <label>
-                            <input type="checkbox" name="supino-serie1" class="serie-checkbox"> <span>Série 1</span>
+                            <input type="checkbox" name="roscaBarra-serie1" class="serie-checkbox"> <span>Série 1</span>
                         </label>
-                        <div class="timer" id="timer1">Descanso 60</div>
+                        <div class="timer" id="timer16">Descanso 60</div>
                         <label class="hidden">
-                            <input type="checkbox" name="supino-serie2" class="serie-checkbox"> <span>Série 2</span>
+                            <input type="checkbox" name="roscaBarra-serie2" class="serie-checkbox"> <span>Série 2</span>
                         </label>
-                        <div class="timer" id="timer2">Descanso 60</div>
+                        <div class="timer" id="timer17">Descanso 60</div>
                         <label class="hidden">
-                            <input type="checkbox" name="supino-serie3" class="serie-checkbox"> <span>Série 3</span>
+                            <input type="checkbox" name="roscaBarra-serie3" class="serie-checkbox"> <span>Série 3</span>
                         </label>
-                        <div class="timer" id="timer3">Descanso 60</div>
+                        <div class="timer" id="timer18">Descanso 60</div>
                     </div>
                     <hr>
-
-                    <li id="">
+            
+                    <li id="roscaMartelo">
                         Rosca Martelo <br>
-                        <img src="/assets/images/treinos/superiores/roscaMartelo.gif">
+                        <img src="/assets/images/treinos/superiores/roscaMartelo.gif" onclick="openModal('modalRoscaMartelo')">
                     </li>
                     <div class="marcadores">
                         <label>
-                            <input type="checkbox" name="-serie1" class="serie-checkbox"> <span>Série
-                                1</span>
+                            <input type="checkbox" name="roscaMartelo-serie1" class="serie-checkbox"> <span>Série 1</span>
+                        </label>
+                        <div class="timer" id="timer19">Descanso 60</div>
+                        <label class="hidden">
+                            <input type="checkbox" name="roscaMartelo-serie2" class="serie-checkbox"> <span>Série 2</span>
+                        </label>
+                        <div class="timer" id="timer20">Descanso 60</div>
+                        <label class="hidden">
+                            <input type="checkbox" name="roscaMartelo-serie3" class="serie-checkbox"> <span>Série 3</span>
+                        </label>
+                        <div class="timer" id="timer21">Descanso 60</div>
+                    </div>
+                    <hr>
+            
+                    <li id="bicepsMaquina">
+                        Bíceps Máquina <br>
+                        <img src="/assets/images/treinos/superiores/bicepsMaquina.webp" onclick="openModal('modalBicepsMaquina')">
+                    </li>
+                    <div class="marcadores">
+                        <label>
+                            <input type="checkbox" name="bicepsMaquina-serie1" class="serie-checkbox"> <span>Série 1</span>
                         </label>
                         <div class="timer" id="timer22">Descanso 60</div>
                         <label class="hidden">
-                            <input type="checkbox" name="-serie2" class="serie-checkbox"> <span>Série
-                                2</span>
+                            <input type="checkbox" name="bicepsMaquina-serie2" class="serie-checkbox"> <span>Série 2</span>
                         </label>
                         <div class="timer" id="timer23">Descanso 60</div>
                         <label class="hidden">
-                            <input type="checkbox" name="-serie3" class="serie-checkbox"> <span>Série
-                                3</span>
+                            <input type="checkbox" name="bicepsMaquina-serie3" class="serie-checkbox"> <span>Série 3</span>
                         </label>
                         <div class="timer" id="timer24">Descanso 60</div>
                     </div>
                     <hr>
-
-                    <li id="bicepsMaquina">
-                        Bíceps Máquina <br>
-                        <img src="/assets/images/treinos/superiores/bicepsMaquina.webp">
-                    </li>
-                    <div class="marcadores">
-                        <label>
-                            <input type="checkbox" name="supino-serie1" class="serie-checkbox"> <span>Série 1</span>
-                        </label>
-                        <div class="timer" id="timer1">Descanso 60</div>
-                        <label class="hidden">
-                            <input type="checkbox" name="supino-serie2" class="serie-checkbox"> <span>Série 2</span>
-                        </label>
-                        <div class="timer" id="timer2">Descanso 60</div>
-                        <label class="hidden">
-                            <input type="checkbox" name="supino-serie3" class="serie-checkbox"> <span>Série 3</span>
-                        </label>
-                        <div class="timer" id="timer3">Descanso 60</div>
-                    </div>
-                    <hr>
                 </ul>
+            </div>
+            
+            <!-- Modais -->
+            <div id="modalPuxadaFrontal" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('modalPuxadaFrontal')">&times;</span>
+                    <h2>Puxada Frontal</h2>
+                    <ul>
+                        <li>Sentar na máquina com as costas retas.</li>
+                        <li>Ajustar a altura do banco e do apoio para as pernas.</li>
+                        <li>Segurar a barra com as mãos na largura dos ombros.</li>
+                        <li>Puxar a barra em direção ao peito, contraindo as costas.</li>
+                        <li>Retornar à posição inicial de forma controlada.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="modalPuxadaBaixa" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('modalPuxadaBaixa')">&times;</span>
+                    <h2>Puxada Baixa</h2>
+                    <ul>
+                        <li>Sentar na máquina com as costas retas.</li>
+                        <li>Ajustar o apoio das pernas e a altura da barra.</li>
+                        <li>Segurar a barra com as mãos na largura dos ombros.</li>
+                        <li>Puxar a barra em direção à barriga, contraindo as costas.</li>
+                        <li>Retornar à posição inicial controladamente.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="modalRemadaArticulada" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('modalRemadaArticulada')">&times;</span>
+                    <h2>Remada Articulada</h2>
+                    <ul>
+                        <li>Sentar na máquina e ajustar o apoio para o peito.</li>
+                        <li>Segurar as alças com as palmas das mãos voltadas para baixo.</li>
+                        <li>Puxar as alças em direção ao corpo, mantendo os cotovelos próximos.</li>
+                        <li>Retornar à posição inicial de forma controlada.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="modalRemadaCurvada" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('modalRemadaCurvada')">&times;</span>
+                    <h2>Remada Curvada Halteres</h2>
+                    <ul>
+                        <li>Ficar em pé com os pés na largura dos ombros.</li>
+                        <li>Inclinar o tronco para frente, mantendo as costas retas.</li>
+                        <li>Segurar um halter em cada mão com os braços estendidos.</li>
+                        <li>Puxar os halteres em direção ao tronco, contraindo as costas.</li>
+                        <li>Retornar à posição inicial de forma controlada.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="modalCrucifixoInvertido" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('modalCrucifixoInvertido')">&times;</span>
+                    <h2>Crucifixo Invertido Máquina</h2>
+                    <ul>
+                        <li>Sentar na máquina com as costas retas.</li>
+                        <li>Ajustar o apoio para o peito e os braços.</li>
+                        <li>Segurar as alças e abrir os braços para os lados.</li>
+                        <li>Fechar os braços em direção ao centro do corpo, contraindo as costas.</li>
+                        <li>Retornar à posição inicial controladamente.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="modalRoscaBarra" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('modalRoscaBarra')">&times;</span>
+                    <h2>Rosca Barra</h2>
+                    <ul>
+                        <li>Ficar em pé com os pés na largura dos ombros.</li>
+                        <li>Segurar a barra com as palmas das mãos voltadas para cima.</li>
+                        <li>Flexionar os cotovelos, levantando a barra até o peito.</li>
+                        <li>Retornar à posição inicial controladamente.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="modalRoscaMartelo" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('modalRoscaMartelo')">&times;</span>
+                    <h2>Rosca Martelo</h2>
+                    <ul>
+                        <li>Ficar em pé com os pés na largura dos ombros.</li>
+                        <li>Segurar um halter em cada mão com as palmas voltadas para dentro.</li>
+                        <li>Flexionar os cotovelos, levantando os halteres até os ombros.</li>
+                        <li>Retornar à posição inicial controladamente.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="modalBicepsMaquina" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('modalBicepsMaquina')">&times;</span>
+                    <h2>Bíceps Máquina</h2>
+                    <ul>
+                        <li>Sentar na máquina e ajustar o apoio para os braços.</li>
+                        <li>Segurar as alças com as palmas das mãos voltadas para cima.</li>
+                        <li>Flexionar os braços, levantando as alças em direção aos ombros.</li>
+                        <li>Retornar à posição inicial de forma controlada.</li>
+                    </ul>
+                </div>
             </div>
         </section>
     </main>
@@ -214,6 +305,6 @@
     </footer>
 </body>
 <script type="text/javascript" src="/assets/js/script.js"></script>
-<!-- <script type="text/javascript" src="/assets/js/modais.js"></script> -->
+<script type="text/javascript" src="/assets/js/modais.js"></script>
 
 </html>

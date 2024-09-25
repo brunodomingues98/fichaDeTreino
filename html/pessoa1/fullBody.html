@@ -4,7 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
-    <title>Meu treino C</title>
+    <title>Meu treino Full Body</title>
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/treino.css">
 </head>
@@ -26,78 +26,69 @@
         <section class="fundoVidro">
             <div class="treino">
                 <ul>
-                    <li id="">
+                    <li id="supinoBarra" onclick="openModal('modalSupinoBarra')">
                         Supino Barra <br>
-                        <img src="/assets/images/treinos/superiores/supinoReto.webp">
+                        <img src="/assets/images/treinos/superiores/supinoReto.webp" alt="Supino Barra">
                     </li>
                     <div class="marcadores">
                         <label>
-                            <input type="checkbox" name="puxadaFrontal-serie1" class="serie-checkbox"> <span>Série
-                                1</span>
+                            <input type="checkbox" name="puxadaFrontal-serie1" class="serie-checkbox"> <span>Série 1</span>
                         </label>
                         <div class="timer" id="timer1">Descanso 60</div>
                         <label class="hidden">
-                            <input type="checkbox" name="puxadaFrontal-serie2" class="serie-checkbox"> <span>Série
-                                2</span>
+                            <input type="checkbox" name="puxadaFrontal-serie2" class="serie-checkbox"> <span>Série 2</span>
                         </label>
                         <div class="timer" id="timer2">Descanso 60</div>
                         <label class="hidden">
-                            <input type="checkbox" name="puxadaFrontal-serie3" class="serie-checkbox"> <span>Série
-                                3</span>
+                            <input type="checkbox" name="puxadaFrontal-serie3" class="serie-checkbox"> <span>Série 3</span>
                         </label>
                         <div class="timer" id="timer3">Descanso 60</div>
                     </div>
                     <hr>
-
-                    <li id="">
+            
+                    <li id="crucifixoInclinado" onclick="openModal('modalCrucifixoInclinado')">
                         Crucifixo Inclinado <br>
-                        <img src="/assets/images/treinos/superiores/crucifixoInclinado.gif">
+                        <img src="/assets/images/treinos/superiores/crucifixoInclinado.gif" alt="Crucifixo Inclinado">
                     </li>
                     <div class="marcadores">
                         <label>
-                            <input type="checkbox" name="puxadaBaixa-serie1" class="serie-checkbox"> <span>Série
-                                1</span>
+                            <input type="checkbox" name="puxadaBaixa-serie1" class="serie-checkbox"> <span>Série 1</span>
                         </label>
                         <div class="timer" id="timer7">Descanso 60</div>
                         <label class="hidden">
-                            <input type="checkbox" name="puxadaBaixa-serie2" class="serie-checkbox"> <span>Série
-                                2</span>
+                            <input type="checkbox" name="puxadaBaixa-serie2" class="serie-checkbox"> <span>Série 2</span>
                         </label>
                         <div class="timer" id="timer8">Descanso 60</div>
                         <label class="hidden">
-                            <input type="checkbox" name="puxadaBaixa-serie3" class="serie-checkbox"> <span>Série
-                                3</span>
+                            <input type="checkbox" name="puxadaBaixa-serie3" class="serie-checkbox"> <span>Série 3</span>
                         </label>
                         <div class="timer" id="timer9">Descanso 60</div>
                     </div>
                     <hr>
-
-                    <li id="">
+            
+                    <li id="crucifixoInvertido" onclick="openModal('modalCrucifixoInvertido')">
                         Crucifixo Invertido <br>
-                        <img src="/assets/images/treinos/superiores/crucifixoInvertido.gif">
+                        <img src="/assets/images/treinos/superiores/crucifixoInvertido.gif" alt="Crucifixo Invertido">
                     </li>
                     <div class="marcadores">
                         <label>
-                            <input type="checkbox" name="remadaArticulada-serie1" class="serie-checkbox"> <span>Série
-                                1</span>
+                            <input type="checkbox" name="remadaArticulada-serie1" class="serie-checkbox"> <span>Série 1</span>
                         </label>
                         <div class="timer" id="timer10">Descanso 60</div>
                         <label class="hidden">
-                            <input type="checkbox" name="remadaArticulada-serie2" class="serie-checkbox"> <span>Série
-                                2</span>
+                            <input type="checkbox" name="remadaArticulada-serie2" class="serie-checkbox"> <span>Série 2</span>
                         </label>
                         <div class="timer" id="timer11">Descanso 60</div>
                         <label class="hidden">
-                            <input type="checkbox" name="remadaArticulada-serie3" class="serie-checkbox"> <span>Série
-                                3</span>
+                            <input type="checkbox" name="remadaArticulada-serie3" class="serie-checkbox"> <span>Série 3</span>
                         </label>
                         <div class="timer" id="timer12">Descanso 60</div>
                     </div>
                     <hr>
-
-                    <li id="">
+            
+                    <li id="puxadaNeutraTriangulo" onclick="openModal('modalPuxadaNeutraTriangulo')">
                         Puxada Neutra no Triangulo <br>
-                        <img src="/assets/images/treinos/superiores/puxadaNeutraTriangulo.webp">
+                        <img src="/assets/images/treinos/superiores/puxadaNeutraTriangulo.webp" alt="Puxada Neutra no Triangulo">
                     </li>
                     <div class="marcadores">
                         <label>
@@ -116,34 +107,31 @@
                         </label>
                         <div class="timer" id="timer6">Descanso 60</div>
                     </div>
-                    <hr>                    
-
-                    <li id="">
+                    <hr>
+            
+                    <li id="tricepsMaquina" onclick="openModal('modalTricepsMaquina')">
                         Triceps Máquina <br>
-                        <img src="/assets/images/treinos/superiores/tricepsMaquina.gif">
+                        <img src="/assets/images/treinos/superiores/tricepsMaquina.gif" alt="Triceps Máquina">
                     </li>
                     <div class="marcadores">
                         <label>
-                            <input type="checkbox" name="crucifixoInvertido-serie1" class="serie-checkbox"> <span>Série
-                                1</span>
+                            <input type="checkbox" name="crucifixoInvertido-serie1" class="serie-checkbox"> <span>Série 1</span>
                         </label>
                         <div class="timer" id="timer13">Descanso 60</div>
                         <label class="hidden">
-                            <input type="checkbox" name="crucifixoInvertido-serie2" class="serie-checkbox"> <span>Série
-                                2</span>
+                            <input type="checkbox" name="crucifixoInvertido-serie2" class="serie-checkbox"> <span>Série 2</span>
                         </label>
                         <div class="timer" id="timer14">Descanso 60</div>
                         <label class="hidden">
-                            <input type="checkbox" name="crucifixoInvertido-serie3" class="serie-checkbox"> <span>Série
-                                3</span>
+                            <input type="checkbox" name="crucifixoInvertido-serie3" class="serie-checkbox"> <span>Série 3</span>
                         </label>
                         <div class="timer" id="timer15">Descanso 60</div>
                     </div>
                     <hr>
-
-                    <li id="">
+            
+                    <li id="roscaAlternada" onclick="openModal('modalRoscaAlternada')">
                         Rosca Alternada <br>
-                        <img src="/assets/images/treinos/superiores/roscaAlternada.gif">
+                        <img src="/assets/images/treinos/superiores/roscaAlternada.gif" alt="Rosca Alternada">
                     </li>
                     <div class="marcadores">
                         <label>
@@ -160,10 +148,10 @@
                         <div class="timer" id="timer3">Descanso 60</div>
                     </div>
                     <hr>
-
-                    <li id="">
+            
+                    <li id="legPress" onclick="openModal('modalLegPress')">
                         Leg Press <br>
-                        <img src="/assets/images/treinos/inferiores/legPress.gif">
+                        <img src="/assets/images/treinos/inferiores/legPress.gif" alt="Leg Press">
                     </li>
                     <div class="marcadores">
                         <label>
@@ -182,6 +170,97 @@
                     <hr>
                 </ul>
             </div>
+            
+            <!-- Modais -->
+            <div id="modalSupinoBarra" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('modalSupinoBarra')">&times;</span>
+                    <h2>Supino Barra</h2>
+                    <ul>
+                        <li>Deite-se em um banco reto com os pés firmes no chão.</li>
+                        <li>Segure a barra com as mãos na largura dos ombros.</li>
+                        <li>Desça a barra até o peito, controlando o movimento.</li>
+                        <li>Levante a barra até a posição inicial, estendendo os braços.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="modalCrucifixoInclinado" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('modalCrucifixoInclinado')">&times;</span>
+                    <h2>Crucifixo Inclinado</h2>
+                    <ul>
+                        <li>Deite-se em um banco inclinado com os pés firmes no chão.</li>
+                        <li>Segure um par de halteres com os braços estendidos acima do peito.</li>
+                        <li>Desça os halteres lateralmente, controlando o movimento.</li>
+                        <li>Retorne à posição inicial, juntando os halteres acima do peito.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="modalCrucifixoInvertido" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('modalCrucifixoInvertido')">&times;</span>
+                    <h2>Crucifixo Invertido</h2>
+                    <ul>
+                        <li>Deite-se de bruços em um banco plano.</li>
+                        <li>Segure um par de halteres com os braços estendidos.</li>
+                        <li>Levante os halteres lateralmente até a altura dos ombros.</li>
+                        <li>Retorne à posição inicial, controlando o movimento.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="modalPuxadaNeutraTriangulo" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('modalPuxadaNeutraTriangulo')">&times;</span>
+                    <h2>Puxada Neutra no Triângulo</h2>
+                    <ul>
+                        <li>Fique em pé em frente à máquina de puxada.</li>
+                        <li>Segure a alça em posição neutra.</li>
+                        <li>Puxe a alça em direção ao peito, mantendo os cotovelos próximos ao corpo.</li>
+                        <li>Retorne lentamente à posição inicial.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="modalTricepsMaquina" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('modalTricepsMaquina')">&times;</span>
+                    <h2>Tríceps Máquina</h2>
+                    <ul>
+                        <li>Sentar-se na máquina com as costas retas.</li>
+                        <li>Ajustar o peso conforme necessário.</li>
+                        <li>Empurre as alças para baixo, estendendo os braços.</li>
+                        <li>Retorne lentamente à posição inicial.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="modalRoscaAlternada" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('modalRoscaAlternada')">&times;</span>
+                    <h2>Rosca Alternada</h2>
+                    <ul>
+                        <li>Fique em pé com um halter em cada mão.</li>
+                        <li>Flexione um braço enquanto mantém o outro estendido.</li>
+                        <li>Retorne à posição inicial e repita com o outro braço.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="modalLegPress" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('modalLegPress')">&times;</span>
+                    <h2>Leg Press</h2>
+                    <ul>
+                        <li>Sentar-se na máquina de leg press com as costas apoiadas.</li>
+                        <li>Colocar os pés na plataforma na largura dos ombros.</li>
+                        <li>Empurre a plataforma com os pés, estendendo as pernas.</li>
+                        <li>Retorne à posição inicial, controlando o movimento.</li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </main>
 
@@ -191,6 +270,6 @@
     </footer>
 </body>
 <script type="text/javascript" src="/assets/js/script.js"></script>
-<!-- <script type="text/javascript" src="/assets/js/modais.js"></script> -->
+<script type="text/javascript" src="/assets/js/modais.js"></script>
 
 </html>

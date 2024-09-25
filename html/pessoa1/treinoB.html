@@ -28,30 +28,27 @@
                 <ul>
                     <li id="agachamento">
                         Agachamento Com Barra <br>
-                        <img src="/assets/images/treinos/inferiores/agachamento.gif">
+                        <img src="/assets/images/treinos/inferiores/agachamento.gif" onclick="openModal('modalAgachamento')">
                     </li>
                     <div class="marcadores">
                         <label>
-                            <input type="checkbox" name="agachamento-serie1" class="serie-checkbox"> <span>Série
-                                1</span>
+                            <input type="checkbox" name="agachamento-serie1" class="serie-checkbox"> <span>Série 1</span>
                         </label>
                         <div class="timer" id="timer1">Descanso 60</div>
                         <label class="hidden">
-                            <input type="checkbox" name="agachamento-serie2" class="serie-checkbox"> <span>Série
-                                2</span>
+                            <input type="checkbox" name="agachamento-serie2" class="serie-checkbox"> <span>Série 2</span>
                         </label>
                         <div class="timer" id="timer2">Descanso 60</div>
                         <label class="hidden">
-                            <input type="checkbox" name="agachamento-serie3" class="serie-checkbox"> <span>Série
-                                3</span>
+                            <input type="checkbox" name="agachamento-serie3" class="serie-checkbox"> <span>Série 3</span>
                         </label>
                         <div class="timer" id="timer3">Descanso 60</div>
                     </div>
                     <hr>
-
+            
                     <li id="legPress">
                         Leg Press 45º <br>
-                        <img src="/assets/images/treinos/inferiores/legPress45.webp">
+                        <img src="/assets/images/treinos/inferiores/legPress45.webp" onclick="openModal('modalLegPress')">
                     </li>
                     <div class="marcadores">
                         <label>
@@ -68,10 +65,10 @@
                         <div class="timer" id="timer6">Descanso 60</div>
                     </div>
                     <hr>
-
+            
                     <li id="curl">
                         Leg Curl <br>
-                        <img src="/assets/images/treinos/inferiores/legCurl.gif">
+                        <img src="/assets/images/treinos/inferiores/legCurl.gif" onclick="openModal('modalCurl')">
                     </li>
                     <div class="marcadores">
                         <label>
@@ -88,100 +85,148 @@
                         <div class="timer" id="timer9">Descanso 60</div>
                     </div>
                     <hr>
-
+            
                     <li id="bancoExtensor">
                         Banco Extensor <br>
-                        <img src="/assets/images/treinos/inferiores/bancoExtensor.gif">
+                        <img src="/assets/images/treinos/inferiores/bancoExtensor.gif" onclick="openModal('modalBancoExtensor')">
                     </li>
                     <div class="marcadores">
                         <label>
-                            <input type="checkbox" name="bancoExtensor-serie1" class="serie-checkbox"> <span>Série
-                                1</span>
+                            <input type="checkbox" name="bancoExtensor-serie1" class="serie-checkbox"> <span>Série 1</span>
                         </label>
                         <div class="timer" id="timer10">Descanso 60</div>
                         <label class="hidden">
-                            <input type="checkbox" name="bancoExtensor-serie2" class="serie-checkbox"> <span>Série
-                                2</span>
+                            <input type="checkbox" name="bancoExtensor-serie2" class="serie-checkbox"> <span>Série 2</span>
                         </label>
                         <div class="timer" id="timer11">Descanso 60</div>
                         <label class="hidden">
-                            <input type="checkbox" name="bancoExtensor-serie3" class="serie-checkbox"> <span>Série
-                                3</span>
+                            <input type="checkbox" name="bancoExtensor-serie3" class="serie-checkbox"> <span>Série 3</span>
                         </label>
                         <div class="timer" id="timer12">Descanso 60</div>
                     </div>
                     <hr>
-
+            
                     <li id="panturrilhaSentado">
                         Panturrilha Sentado <br>
-                        <img src="/assets/images/treinos/inferiores/panturrilhaSentado.gif">
+                        <img src="/assets/images/treinos/inferiores/panturrilhaSentado.gif" onclick="openModal('modalPanturrilhaSentado')">
                     </li>
                     <div class="marcadores">
                         <label>
-                            <input type="checkbox" name="panturrilhaSentado-serie1" class="serie-checkbox"> <span>Série
-                                1</span>
+                            <input type="checkbox" name="panturrilhaSentado-serie1" class="serie-checkbox"> <span>Série 1</span>
                         </label>
                         <div class="timer" id="timer13">Descanso 60</div>
                         <label class="hidden">
-                            <input type="checkbox" name="panturrilhaSentado-serie2" class="serie-checkbox"> <span>Série
-                                2</span>
+                            <input type="checkbox" name="panturrilhaSentado-serie2" class="serie-checkbox"> <span>Série 2</span>
                         </label>
                         <div class="timer" id="timer14">Descanso 60</div>
                         <label class="hidden">
-                            <input type="checkbox" name="panturrilhaSentado-serie3" class="serie-checkbox"> <span>Série
-                                3</span>
+                            <input type="checkbox" name="panturrilhaSentado-serie3" class="serie-checkbox"> <span>Série 3</span>
                         </label>
                         <div class="timer" id="timer15">Descanso 60</div>
                     </div>
                     <hr>
-
+            
                     <li id="abdominalMaquina">
                         Abdominal Máquina <br>
-                        <img src="/assets/images/treinos/livre/abdominalMaquina.webp">
+                        <img src="/assets/images/treinos/livre/abdominalMaquina.webp" onclick="openModal('modalAbdominalMaquina')">
                     </li>
                     <div class="marcadores">
                         <label>
-                            <input type="checkbox" name="abdominalMaquina-serie1" class="serie-checkbox"> <span>Série
-                                1</span>
+                            <input type="checkbox" name="abdominalMaquina-serie1" class="serie-checkbox"> <span>Série 1</span>
                         </label>
                         <div class="timer" id="timer16">Descanso 60</div>
                         <label class="hidden">
-                            <input type="checkbox" name="abdominalMaquina-serie2" class="serie-checkbox"> <span>Série
-                                2</span>
+                            <input type="checkbox" name="abdominalMaquina-serie2" class="serie-checkbox"> <span>Série 2</span>
                         </label>
                         <div class="timer" id="timer17">Descanso 60</div>
                         <label class="hidden">
-                            <input type="checkbox" name="abdominalMaquina-serie3" class="serie-checkbox"> <span>Série
-                                3</span>
+                            <input type="checkbox" name="abdominalMaquina-serie3" class="serie-checkbox"> <span>Série 3</span>
                         </label>
                         <div class="timer" id="timer18">Descanso 60</div>
                     </div>
                     <hr>
-
-                    <!-- <li id="roscaPunhoMartelo">
-                        Rosca Punho Martelo <br>
-                        <img src="/assets/images/treinos/superiores/roscaPunhoMartelo.gif">
-                    </li>
-                    <div class="marcadores">
-                        <label>
-                            <input type="checkbox" name="roscaPunhoMartelo-serie1" class="serie-checkbox"> <span>Série
-                                1</span>
-                        </label>
-                        <div class="timer" id="timer19">Descanso 60</div>
-                        <label class="hidden">
-                            <input type="checkbox" name="roscaPunhoMartelo-serie2" class="serie-checkbox"> <span>Série
-                                2</span>
-                        </label>
-                        <div class="timer" id="timer20">Descanso 60</div>
-                        <label class="hidden">
-                            <input type="checkbox" name="roscaPunhoMartelo-serie3" class="serie-checkbox"> <span>Série
-                                3</span>
-                        </label>
-                        <div class="timer" id="timer21">Descanso 60</div>
-                    </div>
-                    <hr> -->
                 </ul>
             </div>
+            
+            <!-- Modais dos Exercícios -->
+            <div id="modalAgachamento" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('modalAgachamento')">&times;</span>
+                    <h2>Agachamento Com Barra</h2>
+                    <ul>
+                        <li>Posicione-se em pé com os pés na largura dos ombros.</li>
+                        <li>Coloque a barra sobre os ombros, segurando-a com as mãos.</li>
+                        <li>Agache-se, mantendo os joelhos alinhados com os pés.</li>
+                        <li>Desça até que as coxas fiquem paralelas ao chão.</li>
+                        <li>Levante-se de volta à posição inicial.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="modalLegPress" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('modalLegPress')">&times;</span>
+                    <h2>Leg Press 45º</h2>
+                    <ul>
+                        <li>Sentar na máquina de leg press e ajustar o assento.</li>
+                        <li>Colocar os pés na plataforma, na largura dos ombros.</li>
+                        <li>Descer a plataforma controladamente, dobrando os joelhos.</li>
+                        <li>Empurrar a plataforma de volta até a posição inicial.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="modalCurl" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('modalCurl')">&times;</span>
+                    <h2>Leg Curl</h2>
+                    <ul>
+                        <li>Sentar na máquina de leg curl e ajustar o apoio.</li>
+                        <li>Colocar os pés sob o apoio da máquina.</li>
+                        <li>Dobrar os joelhos, puxando o apoio em direção aos glúteos.</li>
+                        <li>Retornar à posição inicial de forma controlada.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="modalBancoExtensor" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('modalBancoExtensor')">&times;</span>
+                    <h2>Banco Extensor</h2>
+                    <ul>
+                        <li>Sentar no banco extensor e ajustar o apoio das pernas.</li>
+                        <li>Colocar os pés sob o apoio da máquina.</li>
+                        <li>Estender as pernas, levantando o apoio.</li>
+                        <li>Retornar à posição inicial controladamente.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="modalPanturrilhaSentado" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('modalPanturrilhaSentado')">&times;</span>
+                    <h2>Panturrilha Sentado</h2>
+                    <ul>
+                        <li>Sentar na máquina de panturrilha e ajustar o apoio.</li>
+                        <li>Colocar os pés sobre o apoio da máquina.</li>
+                        <li>Levantar os calcanhares, contraindo as panturrilhas.</li>
+                        <li>Descer controladamente até a posição inicial.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="modalAbdominalMaquina" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('modalAbdominalMaquina')">&times;</span>
+                    <h2>Abdominal Máquina</h2>
+                    <ul>
+                        <li>Sentar na máquina de abdominal e ajustar o apoio.</li>
+                        <li>Colocar os pés sob o apoio e as mãos na cabeça.</li>
+                        <li>Flexionar o tronco para frente, contraindo os músculos abdominais.</li>
+                        <li>Retornar à posição inicial de forma controlada.</li>
+                    </ul>
+                </div>
+            </div>            
         </section>
     </main>
 
@@ -191,6 +236,6 @@
     </footer>
 </body>
 <script type="text/javascript" src="/assets/js/script.js"></script>
-<!-- <script type="text/javascript" src="/assets/js/modais.js"></script> -->
+<script type="text/javascript" src="/assets/js/modais.js"></script>
 
 </html>
