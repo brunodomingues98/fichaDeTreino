@@ -10,26 +10,20 @@
         <header>
             <div class="logo">Ficha de Treino</div>
             <nav>
-              <ul class="menu">
-                <li><a href="/html/pessoa1.html">Bruno</a></li>
-                <!-- <li><a href="/html/pessoa2.html">pessoa2</a></li> -->
-              </ul>
+                <div class="menu-container">
+                    <ul class="menu">
+                        <li><a href="/html/pessoa1.html">Treinos - Bruno</a></li>
+                        <!-- <li><a href="/html/pessoa2.html">pessoa2</a></li> -->
+                    </ul>
+                </div>
             </nav>
-            <div class="hamburger">&#9776;</div>
+            <div class="hamburger" aria-label="Menu">&#9776;</div>
         </header>
         <main>
             <section>
                 <div class="fundoIMG">
                     <img src="/assets/images/logoKB.jpg">
                 </div>
-            </section>
-
-            <section class="textoInicial">
-                <!-- <h1>Stay Hard</h1> -->
-                <blockquote>
-                    "O sucesso vem de saber que você fez tudo o que podia para se tornar o melhor que você é capaz de se tornar."
-                    <cite>- Kobe Bryant</cite>
-                </blockquote>
             </section>
         </main>
 
@@ -38,4 +32,21 @@
         </footer>
     </body>
     <script src="/assets/js/script.js"></script>
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+    const menuContainer = document.querySelector('.menu-container');
+    const hamburgerButton = this;
+
+    menuContainer.classList.toggle('show'); // Alterna a classe 'show'
+    hamburgerButton.classList.toggle('open'); // Alterna a classe 'open'
+    
+    // Altera o conteúdo do botão baseado na classe 'open'
+    if (hamburgerButton.classList.contains('open')) {
+        hamburgerButton.innerHTML = "&#10006;"; // "X"
+    } else {
+        hamburgerButton.innerHTML = "&#9776;"; // Hamburger
+    }
+});
+
+    </script>
 </html>
