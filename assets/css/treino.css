@@ -33,15 +33,12 @@ li {
     list-style: none;
     display: flex;
     justify-content: space-around;
-    position: relative;
-    top: 60px;
 }
 
 img {
     width: 115px;
-    height: 115px;
-    position: relative;
-    bottom: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .modal {
