@@ -19,7 +19,6 @@ document.querySelector('.hamburger').addEventListener('click', function() {
 });
 // Menu - Fim
 
-// Contador
 document.addEventListener('DOMContentLoaded', function() {
     const checkboxes = document.querySelectorAll('.serie-checkbox');
     const timers = document.querySelectorAll('.timer');
@@ -45,11 +44,17 @@ document.addEventListener('DOMContentLoaded', function() {
             if (--timer < 0) {
                 clearInterval(countdown);
                 timerElement.style.display = "none";
+                
+                // Remove a classe 'hidden' do label correspondente
                 if (currentIndex < labels.length) {
                     labels[currentIndex].classList.remove('hidden');
+                }
+                
+                // Verifica se a API de vibração está disponível e vibra por 200ms
+                if (navigator.vibrate) {
+                    navigator.vibrate(200); // Vibration de 200ms
                 }
             }
         }, 1000);
     }
 });
-// Contador - Fim
