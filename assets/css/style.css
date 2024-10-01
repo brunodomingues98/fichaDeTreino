@@ -53,7 +53,7 @@ nav {
     border: 2px solid rgb(183 141 41);
     float: right;
     right: 40px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(100px) !important;
 }
 
 .menu-container.show {

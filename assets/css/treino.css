@@ -31,11 +31,16 @@ h1 {
 li {
     font-size: 22px;
     list-style: none;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 60px;
 }
 
 img {
-    width: 315px;
-    padding-top: 10px;
+    width: 115px;
+    position: relative;
+    bottom: 35px;
 }
 
 .modal {
