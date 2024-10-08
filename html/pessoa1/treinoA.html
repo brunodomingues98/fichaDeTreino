@@ -26,6 +26,28 @@
         <section class="fundoVidro">
             <div class="treino">
                 <ul>
+                    <div class="">
+                        <li id="supinoBarra" onclick="openModal('modalSupinoBarra')">
+                            Supino Barra <br>
+                            <img src="/assets/images/treinos/superiores/supinoReto.webp" alt="Supino Barra">
+                        </li>
+                        <div class="marcadores">
+                            <label>
+                                <input type="checkbox" name="puxadaFrontal-serie1" class="serie-checkbox"> <span>Série 1</span>
+                            </label>
+                            <div class="timer" id="timer1">Descanso 60</div>
+                            <label class="hidden">
+                                <input type="checkbox" name="puxadaFrontal-serie2" class="serie-checkbox"> <span>Série 2</span>
+                            </label>
+                            <div class="timer" id="timer2">Descanso 60</div>
+                            <label class="hidden">
+                                <input type="checkbox" name="puxadaFrontal-serie3" class="serie-checkbox"> <span>Série 3</span>
+                            </label>
+                            <div class="timer" id="timer3">Descanso 60</div>
+                        </div>
+                        <hr>
+                    </div>
+
                     <div class="exercicio01">
                         <li id="supinoMaquina">
                             Supino Máquina <br>
@@ -61,41 +83,7 @@
                             </ul>
                         </div>
                     </div>
-                    <hr>
-            
-                    <li id="desenvolvimentoMaquina">
-                        Desenvolvimento Máquina <br>
-                        <img src="/assets/images/treinos/superiores/desenvolvimentoMaquina.gif" onclick="openModal('modalDesenvolvimentoMaquina')">
-                    </li>
-                    <div class="marcadores">
-                        <label>
-                            <input type="checkbox" name="desenvolvimento-serie1" class="serie-checkbox"> <span>Série 1</span>
-                        </label>
-                        <div class="timer" id="timer4">Descanso 60</div>
-                        <label class="hidden">
-                            <input type="checkbox" name="desenvolvimento-serie2" class="serie-checkbox"> <span>Série 2</span>
-                        </label>
-                        <div class="timer" id="timer5">Descanso 60</div>
-                        <label class="hidden">
-                            <input type="checkbox" name="desenvolvimento-serie3" class="serie-checkbox"> <span>Série 3</span>
-                        </label>
-                        <div class="timer" id="timer6">Descanso 60</div>
-                    </div>
-            
-                    <!-- Modal do Desenvolvimento Máquina -->
-                    <div id="modalDesenvolvimentoMaquina" class="modal">
-                        <div class="modal-content">
-                            <span class="close-button" onclick="closeModal('modalDesenvolvimentoMaquina')">&times;</span>
-                            <h2>Desenvolvimento Máquina</h2>
-                            <ul>
-                                <li>Ajuste o assento para que suas mãos fiquem na altura dos ombros.</li>
-                                <li>Segure as alavancas e empurre-as para cima até que seus braços estejam totalmente estendidos.</li>
-                                <li>Desça contruladamente até que seus cotovelos formem um ângulo de 90 graus.</li>
-                                <li>Repita para o número de repetições desejado.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <hr>
+                    <hr>                                
             
                     <li id="peckDeck">
                         Peck Deck / Voador <br>
@@ -160,6 +148,40 @@
                                 <li>Mantenha os braços ligeiramente flexionados durante todo o movimento.</li>
                                 <li>Aproxime os braços até que suas mãos quase se toquem à sua frente.</li>
                                 <li>Retorne à posição inicial de forma contrulada.</li>
+                                <li>Repita para o número de repetições desejado.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <li id="desenvolvimentoMaquina"></li>
+                        Desenvolvimento Máquina <br>
+                        <img src="/assets/images/treinos/superiores/desenvolvimentoMaquina.gif" onclick="openModal('modalDesenvolvimentoMaquina')">
+                    </li>
+                    <div class="marcadores">
+                        <label>
+                            <input type="checkbox" name="desenvolvimento-serie1" class="serie-checkbox"> <span>Série 1</span>
+                        </label>
+                        <div class="timer" id="timer4">Descanso 60</div>
+                        <label class="hidden">
+                            <input type="checkbox" name="desenvolvimento-serie2" class="serie-checkbox"> <span>Série 2</span>
+                        </label>
+                        <div class="timer" id="timer5">Descanso 60</div>
+                        <label class="hidden">
+                            <input type="checkbox" name="desenvolvimento-serie3" class="serie-checkbox"> <span>Série 3</span>
+                        </label>
+                        <div class="timer" id="timer6">Descanso 60</div>
+                    </div>
+            
+                    <!-- Modal do Desenvolvimento Máquina -->
+                    <div id="modalDesenvolvimentoMaquina" class="modal">
+                        <div class="modal-content">
+                            <span class="close-button" onclick="closeModal('modalDesenvolvimentoMaquina')">&times;</span>
+                            <h2>Desenvolvimento Máquina</h2>
+                            <ul>
+                                <li>Ajuste o assento para que suas mãos fiquem na altura dos ombros.</li>
+                                <li>Segure as alavancas e empurre-as para cima até que seus braços estejam totalmente estendidos.</li>
+                                <li>Desça contruladamente até que seus cotovelos formem um ângulo de 90 graus.</li>
                                 <li>Repita para o número de repetições desejado.</li>
                             </ul>
                         </div>
