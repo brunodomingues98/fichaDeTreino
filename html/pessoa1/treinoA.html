@@ -26,257 +26,176 @@
         <section class="fundoVidro">
             <div class="treino">
                 <ul>
-                    <div class="">
-                        <li id="supinoBarra" onclick="openModal('modalSupinoBarra')">
-                            Supino Barra <br>
-                            <img src="/assets/images/treinos/superiores/supinoReto.webp" alt="Supino Barra">
-                        </li>
-                        <div class="marcadores">
-                            <label>
-                                <input type="checkbox" name="puxadaFrontal-serie1" class="serie-checkbox"> <span>Série 1</span>
-                            </label>
-                            <div class="timer" id="timer1">Descanso 60</div>
-                            <label class="hidden">
-                                <input type="checkbox" name="puxadaFrontal-serie2" class="serie-checkbox"> <span>Série 2</span>
-                            </label>
-                            <div class="timer" id="timer2">Descanso 60</div>
-                            <label class="hidden">
-                                <input type="checkbox" name="puxadaFrontal-serie3" class="serie-checkbox"> <span>Série 3</span>
-                            </label>
-                            <div class="timer" id="timer3">Descanso 60</div>
-                        </div>
-                        <hr>
-                    </div>
-
-                    <div class="exercicio01">
-                        <li id="supinoMaquina">
-                            Supino Máquina <br>
-                            <img src="/assets/images/treinos/superiores/supinoMaquina.gif" onclick="openModal('modalSupinoMaquina')">
-                        </li>
-                        <div class="marcadores">
-                            <label>
-                                <input type="checkbox" name="supino-serie1" class="serie-checkbox"> <span>Série 1</span>
-                            </label>
-                            <div class="timer" id="timer1">Descanso 60</div>
-                            <label class="hidden">
-                                <input type="checkbox" name="supino-serie2" class="serie-checkbox"> <span>Série 2</span>
-                            </label>
-                            <div class="timer" id="timer2">Descanso 60</div>
-                            <label class="hidden">
-                                <input type="checkbox" name="supino-serie3" class="serie-checkbox"> <span>Série 3</span>
-                            </label>
-                            <div class="timer" id="timer3">Descanso 60</div>
-                        </div>
-                    </div>
-            
-                    <!-- Modal do Supino Máquina -->
-                    <div id="modalSupinoMaquina" class="modal">
-                        <div class="modal-content">
-                            <span class="close-button" onclick="closeModal('modalSupinoMaquina')">&times;</span>
-                            <h2>Supino Máquina</h2>
-                            <ul>
-                                <li>Posicione-se na máquina com as costas firmemente apoiadas no encosto.</li>
-                                <li>Segure as alavancas com as mãos na largura dos ombros.</li>
-                                <li>Empurre as alavancas para frente até que seus braços estejam estendidos, mas sem travar os cotovelos.</li>
-                                <li>Retorne lentamente à posição inicial.</li>
-                                <li>Repita para o número de repetições desejado.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <hr>                                
-            
-                    <li id="peckDeck">
-                        Peck Deck / Voador <br>
-                        <img src="/assets/images/treinos/superiores/voadorMaquina.gif" onclick="openModal('modalPeckDeck')">
+                    <li id="supinoBarra" onclick="openModal('modalSupinoBarra')">
+                        Supino Barra <br>
+                        <img src="/assets/images/treinos/superiores/supinoReto.webp" alt="Supino Barra">
                     </li>
-                    <div class="marcadores">
-                        <label>
-                            <input type="checkbox" name="peckDeck-serie1" class="serie-checkbox"> <span>Série 1</span>
-                        </label>
-                        <div class="timer" id="timer7">Descanso 60</div>
-                        <label class="hidden">
-                            <input type="checkbox" name="peckDeck-serie2" class="serie-checkbox"> <span>Série 2</span>
-                        </label>
-                        <div class="timer" id="timer8">Descanso 60</div>
-                        <label class="hidden">
-                            <input type="checkbox" name="peckDeck-serie3" class="serie-checkbox"> <span>Série 3</span>
-                        </label>
-                        <div class="timer" id="timer9">Descanso 60</div>
-                    </div>
-            
-                    <!-- Modal do Peck Deck -->
-                    <div id="modalPeckDeck" class="modal">
-                        <div class="modal-content">
-                            <span class="close-button" onclick="closeModal('modalPeckDeck')">&times;</span>
-                            <h2>Peck Deck / Voador</h2>
-                            <ul>
-                                <li>Ajuste a máquina para que suas mãos estejam na altura dos ombros.</li>
-                                <li>Com os cotovelos ligeiramente dobrados, junte os braços à frente do corpo.</li>
-                                <li>Abra os braços lentamente até sentir o alongamento no peito.</li>
-                                <li>Retorne à posição inicial e repita o movimento.</li>
-                            </ul>
-                        </div>
-                    </div>
                     <hr>
-            
+
+                    <li id="supinoMaquina">
+                        Supino Máquina <br>
+                        <img src="/assets/images/treinos/superiores/supinoMaquina.gif" onclick="openModal('modalSupinoMaquina')">
+                    </li>
+                    <hr>
+                    
                     <li id="cruxifixoMaquina">
                         Crucifixo Máquina <br>
                         <img src="/assets/images/treinos/superiores/cruxifixioMaquina.gif" onclick="openModal('modalCruxifixoMaquina')">
                     </li>
-                    <div class="marcadores">
-                        <label>
-                            <input type="checkbox" name="cruxifixo-serie1" class="serie-checkbox"> <span>Série 1</span>
-                        </label>
-                        <div class="timer" id="timer10">Descanso 60</div>
-                        <label class="hidden">
-                            <input type="checkbox" name="cruxifixo-serie2" class="serie-checkbox"> <span>Série 2</span>
-                        </label>
-                        <div class="timer" id="timer11">Descanso 60</div>
-                        <label class="hidden">
-                            <input type="checkbox" name="cruxifixo-serie3" class="serie-checkbox"> <span>Série 3</span>
-                        </label>
-                        <div class="timer" id="timer12">Descanso 60</div>
-                    </div>
-            
-                    <!-- Modal do Crucifixo Máquina -->
-                    <div id="modalCruxifixoMaquina" class="modal">
-                        <div class="modal-content">
-                            <span class="close-button" onclick="closeModal('modalCruxifixoMaquina')">&times;</span>
-                            <h2>Crucifixo Máquina</h2>
-                            <ul>
-                                <li>Posicione-se com as costas contra o encosto.</li>
-                                <li>Mantenha os braços ligeiramente flexionados durante todo o movimento.</li>
-                                <li>Aproxime os braços até que suas mãos quase se toquem à sua frente.</li>
-                                <li>Retorne à posição inicial de forma contrulada.</li>
-                                <li>Repita para o número de repetições desejado.</li>
-                            </ul>
-                        </div>
-                    </div>
                     <hr>
 
-                    <li id="desenvolvimentoMaquina"></li>
+                    <li id="peckDeck">
+                        Peck Deck / Voador <br>
+                        <img src="/assets/images/treinos/superiores/voadorMaquina.gif" onclick="openModal('modalPeckDeck')">
+                    </li>
+                    <hr>
+
+                    <li id="desenvolvimentoMaquina">
                         Desenvolvimento Máquina <br>
                         <img src="/assets/images/treinos/superiores/desenvolvimentoMaquina.gif" onclick="openModal('modalDesenvolvimentoMaquina')">
                     </li>
-                    <div class="marcadores">
-                        <label>
-                            <input type="checkbox" name="desenvolvimento-serie1" class="serie-checkbox"> <span>Série 1</span>
-                        </label>
-                        <div class="timer" id="timer4">Descanso 60</div>
-                        <label class="hidden">
-                            <input type="checkbox" name="desenvolvimento-serie2" class="serie-checkbox"> <span>Série 2</span>
-                        </label>
-                        <div class="timer" id="timer5">Descanso 60</div>
-                        <label class="hidden">
-                            <input type="checkbox" name="desenvolvimento-serie3" class="serie-checkbox"> <span>Série 3</span>
-                        </label>
-                        <div class="timer" id="timer6">Descanso 60</div>
-                    </div>
-            
-                    <!-- Modal do Desenvolvimento Máquina -->
-                    <div id="modalDesenvolvimentoMaquina" class="modal">
-                        <div class="modal-content">
-                            <span class="close-button" onclick="closeModal('modalDesenvolvimentoMaquina')">&times;</span>
-                            <h2>Desenvolvimento Máquina</h2>
-                            <ul>
-                                <li>Ajuste o assento para que suas mãos fiquem na altura dos ombros.</li>
-                                <li>Segure as alavancas e empurre-as para cima até que seus braços estejam totalmente estendidos.</li>
-                                <li>Desça contruladamente até que seus cotovelos formem um ângulo de 90 graus.</li>
-                                <li>Repita para o número de repetições desejado.</li>
-                            </ul>
-                        </div>
-                    </div>
                     <hr>
-            
+
                     <li id="elevacaulateral">
                         Elevação Lateral<br>
                         <img src="/assets/images/treinos/superiores/elevacaoLateral.webp" onclick="openModal('modalElevacaulateral')">
                     </li>
-                    <div class="marcadores">
-                        <label>
-                            <input type="checkbox" name="elevacao-serie1" class="serie-checkbox"> <span>Série 1</span>
-                        </label>
-                        <div class="timer" id="timer13">Descanso 60</div>
-                        <label class="hidden">
-                            <input type="checkbox" name="elevacao-serie2" class="serie-checkbox"> <span>Série 2</span>
-                        </label>
-                        <div class="timer" id="timer14">Descanso 60</div>
-                        <label class="hidden">
-                            <input type="checkbox" name="elevacao-serie3" class="serie-checkbox"> <span>Série 3</span>
-                        </label>
-                        <div class="timer" id="timer15">Descanso 60</div>
-                    </div>
-            
-                    <!-- Modal da Elevação Lateral -->
-                    <div id="modalElevacaulateral" class="modal">
-                        <div class="modal-content">
-                            <span class="close-button" onclick="closeModal('modalElevacaulateral')">&times;</span>
-                            <h2>Elevação Lateral</h2>
-                            <ul>
-                                <li>Segure os halteres ao lado do corpo com as palmas vultadas para dentro.</li>
-                                <li>Levante os braços lateralmente até que fiquem paralelos ao chão.</li>
-                                <li>Desça os halteres de forma contrulada até a posição inicial.</li>
-                            </ul>
-                        </div>
-                    </div>
                     <hr>
-            
+
                     <li id="tricepsTesta">
                         Tríceps Testa <br>
                         <img src="/assets/images/treinos/superiores/tricepsTesta.gif" onclick="openModal('modalTricepsTesta')">
                     </li>
-                    <!-- Modal do Tríceps Testa -->
-                    <div id="modalTricepsTesta" class="modal">
-                        <div class="modal-content">
-                            <span class="close-button" onclick="closeModal('modalTricepsTesta')">&times;</span>
-                            <h2>Tríceps Testa</h2>
-                            <ul>
-                                <li>Deite-se em um banco reto com uma barra EZ.</li>
-                                <li>Segure a barra com as mãos na largura dos ombros e braços estendidos.</li>
-                                <li>Desça a barra lentamente até a testa.</li>
-                                <li>Empurre a barra de vulta para a posição inicial.</li>
-                            </ul>
-                        </div>
-                    </div>
                     <hr>
-            
+
                     <li id="tricepsCorda">
                         Tríceps na Corda <br>
                         <img src="/assets/images/treinos/superiores/tricepsCorda.gif" onclick="openModal('modalTricepsCorda')">
                     </li>
-                    <!-- Modal do Tríceps na Corda -->
-                    <div id="modalTricepsCorda" class="modal">
-                        <div class="modal-content">
-                            <span class="close-button" onclick="closeModal('modalTricepsCorda')">&times;</span>
-                            <h2>Tríceps na Corda</h2>
-                            <ul>
-                                <li>Posicione-se na máquina de puxador com a corda.</li>
-                                <li>Puxe a corda para baixo até que seus braços estejam completamente estendidos.</li>
-                                <li>Retorne lentamente à posição inicial.</li>
-                            </ul>
-                        </div>
-                    </div>
                     <hr>
-            
+
                     <li id="tricepsPulleyBarra">
                         Tríceps Pulley na Barra <br>
                         <img src="/assets/images/treinos/superiores/tricepsPulleyBarra.gif" onclick="openModal('modalTricepsPulleyBarra')">
                     </li>
-                    <!-- Modal do Tríceps Pulley na Barra -->
-                    <div id="modalTricepsPulleyBarra" class="modal">
-                        <div class="modal-content">
-                            <span class="close-button" onclick="closeModal('modalTricepsPulleyBarra')">&times;</span>
-                            <h2>Tríceps Pulley na Barra</h2>
-                            <ul>
-                                <li>Posicione-se em frente à máquina de pulley com a barra.</li>
-                                <li>Puxe a barra para baixo até que seus braços estejam completamente estendidos.</li>
-                                <li>Vulte lentamente à posição inicial.</li>
-                            </ul>
-                        </div>
-                    </div>
                     <hr>
                 </ul>
-            </div> 
+            </div>
+
+            <!-- Modal do Supino Máquina -->
+            <div id="modalSupinoMaquina" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('modalSupinoMaquina')">&times;</span>
+                    <h2>Supino Máquina</h2>
+                    <ul>
+                        <li>Posicione-se na máquina com as costas firmemente apoiadas no encosto.</li>
+                        <li>Segure as alavancas com as mãos na largura dos ombros.</li>
+                        <li>Empurre as alavancas para frente até que seus braços estejam estendidos, mas sem travar os cotovelos.</li>
+                        <li>Retorne lentamente à posição inicial.</li>
+                        <li>Repita para o número de repetições desejado.</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <!-- Modal do Peck Deck -->
+            <div id="modalPeckDeck" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('modalPeckDeck')">&times;</span>
+                    <h2>Peck Deck / Voador</h2>
+                    <ul>
+                        <li>Ajuste a máquina para que suas mãos estejam na altura dos ombros.</li>
+                        <li>Com os cotovelos ligeiramente dobrados, junte os braços à frente do corpo.</li>
+                        <li>Abra os braços lentamente até sentir o alongamento no peito.</li>
+                        <li>Retorne à posição inicial e repita o movimento.</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <!-- Modal do Crucifixo Máquina -->
+            <div id="modalCruxifixoMaquina" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('modalCruxifixoMaquina')">&times;</span>
+                    <h2>Crucifixo Máquina</h2>
+                    <ul>
+                        <li>Posicione-se com as costas contra o encosto.</li>
+                        <li>Mantenha os braços ligeiramente flexionados durante todo o movimento.</li>
+                        <li>Aproxime os braços até que suas mãos quase se toquem à sua frente.</li>
+                        <li>Retorne à posição inicial de forma contrulada.</li>
+                        <li>Repita para o número de repetições desejado.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Modal do Desenvolvimento Máquina -->
+            <div id="modalDesenvolvimentoMaquina" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('modalDesenvolvimentoMaquina')">&times;</span>
+                    <h2>Desenvolvimento Máquina</h2>
+                    <ul>
+                        <li>Ajuste o assento para que suas mãos fiquem na altura dos ombros.</li>
+                        <li>Segure as alavancas e empurre-as para cima até que seus braços estejam totalmente estendidos.</li>
+                        <li>Desça contruladamente até que seus cotovelos formem um ângulo de 90 graus.</li>
+                        <li>Repita para o número de repetições desejado.</li>
+                    </ul>
+                </div>
+            </div>
+    
+            
+    
+            <!-- Modal da Elevação Lateral -->
+            <div id="modalElevacaulateral" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('modalElevacaulateral')">&times;</span>
+                    <h2>Elevação Lateral</h2>
+                    <ul>
+                        <li>Segure os halteres ao lado do corpo com as palmas vultadas para dentro.</li>
+                        <li>Levante os braços lateralmente até que fiquem paralelos ao chão.</li>
+                        <li>Desça os halteres de forma contrulada até a posição inicial.</li>
+                    </ul>
+                </div>
+            </div>
+    
+            
+            <!-- Modal do Tríceps Testa -->
+            <div id="modalTricepsTesta" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('modalTricepsTesta')">&times;</span>
+                    <h2>Tríceps Testa</h2>
+                    <ul>
+                        <li>Deite-se em um banco reto com uma barra EZ.</li>
+                        <li>Segure a barra com as mãos na largura dos ombros e braços estendidos.</li>
+                        <li>Desça a barra lentamente até a testa.</li>
+                        <li>Empurre a barra de vulta para a posição inicial.</li>
+                    </ul>
+                </div>
+            </div>
+    
+            
+            <!-- Modal do Tríceps na Corda -->
+            <div id="modalTricepsCorda" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('modalTricepsCorda')">&times;</span>
+                    <h2>Tríceps na Corda</h2>
+                    <ul>
+                        <li>Posicione-se na máquina de puxador com a corda.</li>
+                        <li>Puxe a corda para baixo até que seus braços estejam completamente estendidos.</li>
+                        <li>Retorne lentamente à posição inicial.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Modal do Tríceps Pulley na Barra -->
+            <div id="modalTricepsPulleyBarra" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('modalTricepsPulleyBarra')">&times;</span>
+                    <h2>Tríceps Pulley na Barra</h2>
+                    <ul>
+                        <li>Posicione-se em frente à máquina de pulley com a barra.</li>
+                        <li>Puxe a barra para baixo até que seus braços estejam completamente estendidos.</li>
+                        <li>Vulte lentamente à posição inicial.</li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </main>
 
