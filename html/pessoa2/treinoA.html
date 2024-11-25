@@ -22,7 +22,7 @@
         <div class="hamburger">&#9776;</div>
     </header>
     <section class="textoPagina">
-        <h1>A - Peito, Ombros e Tríceps</h1>
+        <h1>A - Superior</h1>
     </section>
 
     <main>
@@ -47,117 +47,44 @@
                     </div>
                     <hr>
 
-                    <li id="supino">
-                        Supino Reto <br>
-                        <img src="/assets/images/treinos/superiores/supinoReto.webp">
+                    <li id="supinoMaquina">
+                        Supino Máquina <br>
+                        <img src="/assets/images/treinos/superiores/supinoMaquina.gif" onclick="openModal('modalSupinoMaquina')">
                     </li>
-                    <div class="marcadores">
-                        <label>
-                            <input type="checkbox" name="supino-serie1" class="serie-checkbox"> <span>Série 1</span>
-                        </label>
-                        <div class="timer" id="timer1">Descanso 60</div>
-                        <label class="hidden">
-                            <input type="checkbox" name="supino-serie2" class="serie-checkbox"> <span>Série 2</span>
-                        </label>
-                        <div class="timer" id="timer2">Descanso 60</div>
-                        <label class="hidden">
-                            <input type="checkbox" name="supino-serie3" class="serie-checkbox"> <span>Série 3</span>
-                        </label>
-                        <div class="timer" id="timer3">Descanso 60</div>
-                    </div>
                     <hr>
 
-                    <li id="elevacao">
-                        Elevação Lateral <br>
-                        <img src="/assets/images/treinos/superiores/elevacaoLateral.webp">
+                    <li id="puxadaFrontal">
+                        Puxada Frontal <br>
+                        <img src="/assets/images/treinos/superiores/puxadaFrontal.webp" onclick="openModal('modalPuxadaFrontal')">
                     </li>
-                    <div class="marcadores">
-                        <label>
-                            <input type="checkbox" name="supino-serie1" class="serie-checkbox"> <span>Série 1</span>
-                        </label>
-                        <div class="timer" id="timer1">Descanso 60</div>
-                        <label class="hidden">
-                            <input type="checkbox" name="supino-serie2" class="serie-checkbox"> <span>Série 2</span>
-                        </label>
-                        <div class="timer" id="timer2">Descanso 60</div>
-                        <label class="hidden">
-                            <input type="checkbox" name="supino-serie3" class="serie-checkbox"> <span>Série 3</span>
-                        </label>
-                        <div class="timer" id="timer3">Descanso 60</div>
-                    </div>
+
+                    <li id="desenvolvimentoMaquina">
+                        Desenvolvimento Máquina <br>
+                        <img src="/assets/images/treinos/superiores/desenvolvimentoMaquina.gif" onclick="openModal('modalDesenvolvimentoMaquina')">
+                    </li>
                     <hr>
 
-                    <li id="triceps">
-                        Tríceps na Polia <br>
-                        <img src="/assets/images/treinos/superiores/tricepsPolia.gif">
+                    <li id="peckDeck">
+                        Peck Deck / Voador <br>
+                        <img src="/assets/images/treinos/superiores/voadorMaquina.gif" onclick="openModal('modalPeckDeck')">
                     </li>
-                    <div class="marcadores">
-                        <label>
-                            <input type="checkbox" name="supino-serie1" class="serie-checkbox"> <span>Série 1</span>
-                        </label>
-                        <div class="timer" id="timer1">Descanso 60</div>
-                        <label class="hidden">
-                            <input type="checkbox" name="supino-serie2" class="serie-checkbox"> <span>Série 2</span>
-                        </label>
-                        <div class="timer" id="timer2">Descanso 60</div>
-                        <label class="hidden">
-                            <input type="checkbox" name="supino-serie3" class="serie-checkbox"> <span>Série 3</span>
-                        </label>
-                        <div class="timer" id="timer3">Descanso 60</div>
-                    </div>
                     <hr>
-                </ul>
-            </div>
-    
-            <!-- Inicio dos modais de cada exercicio -->
-            <div class="modais">                
-               <!-- Modal Supino -->
-               <div id="modal-supino" class="modal">
-                    <div class="modal-content">
-                        <span class="close-button">&times;</span>
-                        <h2>Supino Reto</h2>
-                        <p>
-                            1 - Posicione-se: Deite-se em um banco de supino com os pés firmemente apoiados no chão. Suas costas devem estar retas e os ombros retraídos, tocando o banco. <br><br>
-                            2 - Pegada: Segure a barra com as mãos um pouco mais largas do que a largura dos ombros. Certifique-se de que suas mãos estejam equidistantes para equilibrar o peso. <br><br>
-                            3 - Levantamento da barra: Remova a barra do suporte com os braços estendidos. Esta é a posição inicial. <br><br>
-                            4 - Descida controlada: Abaixe a barra lentamente até que ela toque levemente o meio do seu peito. Mantenha os cotovelos em um ângulo de 45 graus em relação ao seu corpo durante a descida. <br><br>
-                            5 - Empurre para cima: Empurre a barra de volta à posição inicial, estendendo completamente os braços. Concentre-se em contrair os músculos do peito ao fazer isso. <br><br>
-                            6 - Respire: Inspire ao abaixar a barra e expire ao empurrá-la para cima.
-                        </p>
-                    </div>
-                </div>
-               
-                <!-- Modal Elevação Lateral -->
-                <div id="modal-elevacao" class="modal">
-                    <div class="modal-content">
-                        <span class="close-button">&times;</span>
-                        <h2>Elevação Lateral</h2>
-                        <p>
-                            1 - Fique em pé com os pés afastados na largura dos quadris. <br>
-                            2 - Mantenha uma postura ereta e olhe para frente. <br>
-                            3 - Contraia levemente o abdômen e mantenha os braços ao lado do corpo com as palmas das mãos voltadas para dentro. <br>
-                            4 - Relaxe os cotovelos, mantendo-os levemente flexionados. <br>
-                            5 - Eleve os braços lateralmente, sem flexioná-los, até que as mãos atinjam a altura dos ombros. <br>
-                            6 - Abaixe os braços de volta à posição inicial de forma controlada.
-                        </p>
-                    </div>
-                </div>
 
-                <!-- Modal Triceps -->
-                <div id="modal-triceps" class="modal">
-                    <div class="modal-content">
-                        <span class="close-button">&times;</span>
-                        <h2>Tríceps na Corda</h2>
-                        <p>
-                            1 - Posição inicial: Fique em pé em frente a uma polia alta com um puxador de barra ou corda anexado. <br><br>
-                            2 - Pegada: Segure o puxador com as palmas das mãos voltadas para baixo (pronadas) ou para dentro (neutras) se estiver usando a corda. <br><br>
-                            3 - Postura: Mantenha os cotovelos próximos ao corpo e ligeiramente à frente do tronco. Seus pés devem estar firmemente plantados no chão, com uma leve flexão nos joelhos. <br><br>
-                            4 - Extensão dos braços: Puxe o puxador para baixo até que seus braços estejam completamente estendidos e bloqueie os cotovelos na parte inferior do movimento. <br><br>
-                            5 - Retorno controlado: Permita que o puxador retorne lentamente à posição inicial, mantendo a tensão nos tríceps. <br><br>
-                            6 - Respire: Inspire ao retornar o puxador à posição inicial e expire ao empurrá-lo para baixo.
-                        </p>
-                    </div>
-                </div>
+                    <li id="puxadaBaixa">
+                        Remada Baixa <br>
+                        <img src="/assets/images/treinos/superiores/remadaBaixa.gif" onclick="openModal('modalPuxadaBaixa')">
+                    </li>
+
+                    <li id="bicepsMaquina">
+                        Bíceps Máquina <br>
+                        <img src="/assets/images/treinos/superiores/bicepsMaquina.webp" onclick="openModal('modalBicepsMaquina')">
+                    </li>
+
+                    <li id="tricepsPulleyBarra">
+                        Tríceps Pulley na Barra <br>
+                        <img src="/assets/images/treinos/superiores/tricepsPulleyBarra.gif" onclick="openModal('modalTricepsPulleyBarra')">
+                    </li>
+                    <hr>
             </div>
         </section>
     </main>
