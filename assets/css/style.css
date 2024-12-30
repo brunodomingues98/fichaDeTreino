@@ -49,7 +49,9 @@ nav {
     margin-top: 30px;
     z-index: 1000;
     height: 70px; 
-    width: 130px;
+    width: 170px;
+    max-width: 200px;
+    min-width: 160px;
     border: 2px solid rgb(183 141 41);
     float: right;
     right: 40px;
