@@ -26,9 +26,9 @@
         <section class="fundoVidro">
             <div class="treino">
                 <ul>                   
-                    <li id="supinoMaquina">
-                        Supino Máquina <br>
-                        <img src="/assets/images/treinos/superiores/supinoMaquina.gif" onclick="openModal('modalSupinoMaquina')">
+                    <li id="supinoReto">
+                        Supino Barra <br>
+                        <img src="/assets/images/treinos/superiores/supinoReto.webp" onclick="openModal('')">
                     </li>
                     <hr>
 
@@ -42,12 +42,6 @@
                         Crucifixo Máquina <br>
                         <img src="/assets/images/treinos/superiores/cruxifixioMaquina.gif" onclick="openModal('modalCruxifixoMaquina')">
                     </li>
-                    <hr>
-
-                    <!-- <li id="peckDeck">
-                        Peck Deck / Voador <br>
-                        <img src="/assets/images/treinos/superiores/voadorMaquina.gif" onclick="openModal('modalPeckDeck')">
-                    </li> -->
                     <hr>
 
                     <li id="desenvolvimentoMaquina">
@@ -74,54 +68,54 @@
                     </li>
                     <hr>                    
 
-
-                    <!-- <li id="tricepsPulleyBarra">
+                    <li id="tricepsPulleyBarra">
                         Tríceps Pulley na Barra <br>
                         <img src="/assets/images/treinos/superiores/tricepsPulleyBarra.gif" onclick="openModal('modalTricepsPulleyBarra')">
                     </li>
-                    <hr> -->
+                    <hr>
                 </ul>
             </div>
 
-            <!-- Modal do Supino Máquina -->
-            <div id="modalSupinoMaquina" class="modal">
+            <!-- Modal do Supino Barra -->
+            <div id="modalSupinoBarra" class="modal">
                 <div class="modal-content">
-                    <span class="close-button" onclick="closeModal('modalSupinoMaquina')">&times;</span>
-                    <h2>Supino Máquina</h2>
+                    <span class="close-button" onclick="closeModal('modalSupinoBarra')">&times;</span>
+                    <h2>Supino Barra</h2>
                     <ul>
-                        <li>Posicione-se na máquina com as costas firmemente apoiadas no encosto.</li>
-                        <li>Segure as alavancas com as mãos na largura dos ombros.</li>
-                        <li>Empurre as alavancas para frente até que seus braços estejam estendidos, mas sem travar os cotovelos.</li>
-                        <li>Retorne lentamente à posição inicial.</li>
+                        <li>Deite-se em um banco plano com os pés firmemente apoiados no chão.</li>
+                        <li>Segure a barra com as mãos um pouco mais afastadas que a largura dos ombros.</li>
+                        <li>Baixe a barra lentamente até o peito, mantendo os cotovelos ligeiramente inclinados para fora.</li>
+                        <li>Empurre a barra para cima até que seus braços estejam completamente estendidos.</li>
                         <li>Repita para o número de repetições desejado.</li>
                     </ul>
                 </div>
             </div>
-    
-            <!-- Modal do Peck Deck -->
-            <div id="modalPeckDeck" class="modal">
+
+            <!-- Modal do Supino Inclinado com Halteres -->
+            <div id="modalSupinoInclinadoHalteres" class="modal">
                 <div class="modal-content">
-                    <span class="close-button" onclick="closeModal('modalPeckDeck')">&times;</span>
-                    <h2>Peck Deck / Voador</h2>
+                    <span class="close-button" onclick="closeModal('modalSupinoInclinadoHalteres')">&times;</span>
+                    <h2>Supino Inclinado com Halteres</h2>
                     <ul>
-                        <li>Ajuste a máquina para que suas mãos estejam na altura dos ombros.</li>
-                        <li>Com os cotovelos ligeiramente dobrados, junte os braços à frente do corpo.</li>
-                        <li>Abra os braços lentamente até sentir o alongamento no peito.</li>
-                        <li>Retorne à posição inicial e repita o movimento.</li>
+                        <li>Ajuste o banco em um ângulo de 30 a 45 graus.</li>
+                        <li>Segure um haltere em cada mão e deite-se no banco.</li>
+                        <li>Posicione os halteres ao nível do peito com as palmas das mãos voltadas para frente.</li>
+                        <li>Empurre os halteres para cima até que seus braços estejam estendidos.</li>
+                        <li>Baixe os halteres lentamente até a posição inicial.</li>
                     </ul>
                 </div>
             </div>
-    
+
             <!-- Modal do Crucifixo Máquina -->
             <div id="modalCruxifixoMaquina" class="modal">
                 <div class="modal-content">
                     <span class="close-button" onclick="closeModal('modalCruxifixoMaquina')">&times;</span>
                     <h2>Crucifixo Máquina</h2>
                     <ul>
-                        <li>Posicione-se com as costas contra o encosto.</li>
-                        <li>Mantenha os braços ligeiramente flexionados durante todo o movimento.</li>
-                        <li>Aproxime os braços até que suas mãos quase se toquem à sua frente.</li>
-                        <li>Retorne à posição inicial de forma contrulada.</li>
+                        <li>Posicione-se na máquina com as costas apoiadas no encosto.</li>
+                        <li>Segure as alavancas com os braços ligeiramente flexionados.</li>
+                        <li>Empurre as alavancas para frente até que as mãos quase se encontrem.</li>
+                        <li>Retorne lentamente à posição inicial.</li>
                         <li>Repita para o número de repetições desejado.</li>
                     </ul>
                 </div>
@@ -133,66 +127,75 @@
                     <span class="close-button" onclick="closeModal('modalDesenvolvimentoMaquina')">&times;</span>
                     <h2>Desenvolvimento Máquina</h2>
                     <ul>
-                        <li>Ajuste o assento para que suas mãos fiquem na altura dos ombros.</li>
-                        <li>Segure as alavancas e empurre-as para cima até que seus braços estejam totalmente estendidos.</li>
-                        <li>Desça contruladamente até que seus cotovelos formem um ângulo de 90 graus.</li>
+                        <li>Sente-se na máquina com as costas apoiadas no encosto.</li>
+                        <li>Segure as alavancas com as mãos na altura dos ombros.</li>
+                        <li>Empurre as alavancas para cima até que os braços estejam completamente estendidos.</li>
+                        <li>Retorne lentamente à posição inicial.</li>
                         <li>Repita para o número de repetições desejado.</li>
                     </ul>
                 </div>
             </div>
-    
+
             <!-- Modal da Elevação Lateral -->
             <div id="modalElevacaulateral" class="modal">
                 <div class="modal-content">
                     <span class="close-button" onclick="closeModal('modalElevacaulateral')">&times;</span>
                     <h2>Elevação Lateral</h2>
                     <ul>
-                        <li>Segure os halteres ao lado do corpo com as palmas vultadas para dentro.</li>
-                        <li>Levante os braços lateralmente até que fiquem paralelos ao chão.</li>
-                        <li>Desça os halteres de forma contrulada até a posição inicial.</li>
+                        <li>Segure um haltere em cada mão ao lado do corpo.</li>
+                        <li>Levante os braços lateralmente até que estejam na altura dos ombros.</li>
+                        <li>Mantenha uma leve flexão nos cotovelos durante o movimento.</li>
+                        <li>Baixe os halteres lentamente até a posição inicial.</li>
+                        <li>Repita para o número de repetições desejado.</li>
                     </ul>
                 </div>
-            </div>    
-            
+            </div>
+
             <!-- Modal do Tríceps Testa -->
             <div id="modalTricepsTesta" class="modal">
                 <div class="modal-content">
                     <span class="close-button" onclick="closeModal('modalTricepsTesta')">&times;</span>
                     <h2>Tríceps Testa</h2>
                     <ul>
-                        <li>Deite-se em um banco reto com uma barra EZ.</li>
-                        <li>Segure a barra com as mãos na largura dos ombros e braços estendidos.</li>
-                        <li>Desça a barra lentamente até a testa.</li>
-                        <li>Empurre a barra de vulta para a posição inicial.</li>
+                        <li>Deite-se em um banco plano com uma barra EZ nas mãos.</li>
+                        <li>Segure a barra com as mãos na largura dos ombros.</li>
+                        <li>Abaixe a barra lentamente em direção à testa, mantendo os cotovelos fixos.</li>
+                        <li>Empurre a barra de volta à posição inicial.</li>
+                        <li>Repita para o número de repetições desejado.</li>
                     </ul>
                 </div>
-            </div>    
-            
+            </div>
+
             <!-- Modal do Tríceps na Corda -->
             <div id="modalTricepsCorda" class="modal">
                 <div class="modal-content">
                     <span class="close-button" onclick="closeModal('modalTricepsCorda')">&times;</span>
                     <h2>Tríceps na Corda</h2>
                     <ul>
-                        <li>Posicione-se na máquina de puxador com a corda.</li>
-                        <li>Puxe a corda para baixo até que seus braços estejam completamente estendidos.</li>
+                        <li>Fique em pé em frente à polia com uma corda acoplada.</li>
+                        <li>Segure a corda com ambas as mãos e posicione os cotovelos próximos ao corpo.</li>
+                        <li>Puxe a corda para baixo até que os braços estejam completamente estendidos.</li>
                         <li>Retorne lentamente à posição inicial.</li>
+                        <li>Repita para o número de repetições desejado.</li>
                     </ul>
                 </div>
             </div>
-            
+
             <!-- Modal do Tríceps Pulley na Barra -->
             <div id="modalTricepsPulleyBarra" class="modal">
                 <div class="modal-content">
                     <span class="close-button" onclick="closeModal('modalTricepsPulleyBarra')">&times;</span>
                     <h2>Tríceps Pulley na Barra</h2>
                     <ul>
-                        <li>Posicione-se em frente à máquina de pulley com a barra.</li>
-                        <li>Puxe a barra para baixo até que seus braços estejam completamente estendidos.</li>
-                        <li>Vulte lentamente à posição inicial.</li>
+                        <li>Fique em pé em frente à polia com uma barra reta acoplada.</li>
+                        <li>Segure a barra com as palmas das mãos voltadas para baixo.</li>
+                        <li>Puxe a barra para baixo até que os braços estejam completamente estendidos.</li>
+                        <li>Retorne lentamente à posição inicial.</li>
+                        <li>Repita para o número de repetições desejado.</li>
                     </ul>
                 </div>
             </div>
+
         </section>
     </main>
 
