@@ -1,9 +1,29 @@
-# Ficha de treino
+# 🏋️‍♂️ Ficha de Treino
 
-O que é?
-<br>
-É um site para uso somente no mobile onde eu peguei toda minha ficha de treino de musculação e desenvolvi meu próprio "gerenciamento" de treino, desenvolvido de forma simples, usando HTML, CSS e JS, estou usando a Vercel para manter meu site publicado.
-<br><br>
-Entre as características de uma sessão de treino, tenho um GIF mostrando como realizar o movimento correto e para mais dúvidas, ao clicar sobre a imagem abre um modal com o passo a passo do exercício.
-<br><br>
-Projeto realizado apenas para uso pessoal, onde diariamente estou desenvolvendo melhorias de interface ou colocando mais alguma funcionalidade, para melhor atender a mim e minha esposa que também usa o Ficha de treino.
+Este é um projeto pessoal desenvolvido para facilitar o **acompanhamento de treinos de musculação** via dispositivo **mobile**. O site foi criado com **HTML, CSS e JavaScript** e está publicado gratuitamente na **Vercel**.
+
+[🔗 Acesse o site aqui](https://ficha-de-treino.vercel.app)
+
+---
+
+## 📱 Funcionalidades
+
+✅ Visualização da ficha de treino com exercícios organizados  
+✅ Exibição de **GIFs animados** demonstrando a execução correta dos exercícios  
+✅ **Modal com passo a passo** ao clicar em cada imagem  
+✅ Layout adaptado exclusivamente para **dispositivos móveis**  
+✅ Projeto em constante evolução com melhorias na interface
+
+---
+
+## 🚀 Tecnologias utilizadas
+
+- HTML5
+- CSS3
+- JavaScript Vanilla
+- Hospedagem: [Vercel](https://vercel.com)
+
+---
+
+## 📁 Estrutura do projeto
+
