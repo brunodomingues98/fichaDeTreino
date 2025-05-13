@@ -32,11 +32,12 @@ li {
     font-size: 22px;
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 img {
-    width: 115px;
+    width: 150px;
+    height: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -77,6 +78,10 @@ img {
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+
+.modal-content ul {
+    display: contents;
 }
 
 .modal-content  ul > li {
