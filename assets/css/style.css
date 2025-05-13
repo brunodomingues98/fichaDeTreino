@@ -214,4 +214,13 @@ body {
         font-size: 22px;
     }
     
+    ul.treinos {
+        width: 100%;
+        position: relative;
+        right: 20px;
+    }
+
+    ul.treinos > li {
+        line-height: 25px;
+    }
 }
