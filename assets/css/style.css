@@ -1,3 +1,4 @@
+@import url("/assets/css/tabela.css");
 .mobile {
     display: none;
 }
@@ -86,7 +87,7 @@ body {
         margin-top: 30px;
         z-index: 1000;
         height: auto !important;
-        max-height: 155px;
+        max-height: 185px;
         width: 170px;
         max-width: 200px;
         min-width: 160px;
