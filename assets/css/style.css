@@ -225,3 +225,83 @@ body {
         line-height: 25px;
     }
 }
+
+/* Ajustes section estrutura semanal */
+/* .planejamento {
+    margin: 40px 0;
+    padding: 20px;
+}
+
+.planejamento h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.tabela-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #111;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #1f1f1f;
+}
+
+th, td {
+    padding: 14px 16px;
+    text-align: left;
+}
+
+th {
+    font-weight: 600;
+    color: #fff;
+    border-bottom: 2px solid #333;
+}
+
+td {
+    border-bottom: 1px solid #222;
+    color: #ccc;
+}
+
+tbody tr:hover {
+    background-color: #1a1a1a;
+    transition: 0.2s;
+}
+
+@media (max-width: 768px) {
+
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tr {
+        margin-bottom: 15px;
+        background-color: #111;
+        padding: 12px;
+        border-radius: 8px;
+    }
+
+    td {
+        border: none;
+        padding: 6px 0;
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+    }
+
+    td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        color: #888;
+    }
+} */
